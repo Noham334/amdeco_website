@@ -5,6 +5,7 @@ $images = get_foto();
 <html>
 	<head>
 		<title>Subir Imagenes Inicio Amdeco</title>
+		<link rel="icon" href="\amdeco_website\enlacesacercade\login\frontend\images\deco.ico" type="image/x-icon">
 		  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
 
 	</head>

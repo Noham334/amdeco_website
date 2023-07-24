@@ -2,6 +2,7 @@
 	<head>
 		<title>Subir Multiples Imagenes y/o Archivos - By Evilnapsis</title>
 	  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	  <link rel="icon" href="\amdeco_website\enlacesacercade\login\frontend\images\deco.ico" type="image/x-icon">
 	</head>
 	<body>
 <?php include("navbar.php");?>

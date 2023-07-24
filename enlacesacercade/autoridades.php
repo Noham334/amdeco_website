@@ -2,7 +2,7 @@
 include("conexion.php");
 ?>
 <!DOCTYPE php>
-<php lang="en">
+<html lang="en">
   <head>
     <title>Autoridades</title>
     <meta charset="utf-8">
@@ -250,4 +250,4 @@ include("conexion.php");
     <script src="js/script.js"></script>
     
   </body>
-</php>
+</html>

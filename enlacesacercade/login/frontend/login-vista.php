@@ -5,7 +5,7 @@
     <title>Login - Administración</title>
     
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    
+    <link rel="icon" href="\amdeco_website\enlacesacercade\login\frontend\images\deco.ico" type="image/x-icon">
     
     <link rel="stylesheet" href="icon/style.css">
     <link rel="stylesheet" href="css/style.css">

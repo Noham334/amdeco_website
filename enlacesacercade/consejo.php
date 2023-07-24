@@ -1,10 +1,10 @@
 <!DOCTYPE php>
-<php lang="en">
+<html lang="en">
   <head>
     <title>Consejo Directivo</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/deco.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.js"></script>
@@ -56,12 +56,7 @@
                            </li>
                            <li>
                              <a >Secretario General<br><img src="consejo/Segundina_orellana.jpeg" alt="Little Egret"><br><label>Segundina Orellana Paniagua.</label></span></a>
-                             <ul>
-                               <li>
-                                 
-                                 <a >Secretaria de Desarrollo Legislativo<br><img src="consejo/" alt="Little Egret"><br><label></label></span></a>
-                               </li>
-                             </ul>
+
                            </li>
                            <li>
                               
@@ -227,5 +222,5 @@ Así mismo, el Consejo Directivo es la responsable de la gestión de todos los o
     </style>
 
   </body>
-</php>
+</html>
 

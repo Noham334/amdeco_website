@@ -12,7 +12,7 @@
 ?>
 
 <!DOCTYPE php>
-<php lang="en">
+<html lang="en">
   <head>
     <title>Amdeco - Registros</title>
     <meta charset="utf-8">
@@ -65,7 +65,7 @@
                 <div  class="container" style="background-color: #f8f9fa; padding:1%;">
                     <div class="col-md-6" style="padding-left: 10%;">
                         <h6><strong> Nombre completo: </strong></h6>
-                        <p><?= $results['nombre'], $results['apellido_p'], $results['apellido_m']?></p>
+                        <p><?= $results['nombre']." ".isset($results['apellido_p'])." ". isset($results['apellido_m'])?></p>
                     </div> 
                     <div class="col-md-6" style="padding-left: 10%;">
                         <h6><strong>CI: </strong> </h6>
@@ -163,4 +163,4 @@
     </div>
     <script src="js/script.js"></script>
   </body>
-</php>
+</html>
