@@ -33,14 +33,14 @@ $active_banner="active";
     	<div class="row">
 
 			<ol class="breadcrumb">
-				<li><a href="/amdeco/enlacesacercade/login/principal.php">Inicio</a></li>
+				<li><a href="/amdeco_website/enlacesacercade/login/principal.php">Inicio</a></li>
 				<li class="active">Alcaldes</li>
-				<li><a href="/amdeco/eventos/index2.php">Eventos</a> </li>
-				<li><a href="/amdeco/Contactos/reportes.php">Contactos</a> </li>
-				<li><a href="/amdeco/noticias/admin/bannerlist.php">Noticias</a> </li>
-				<li><a href="http://localhost/amdeco/publicaciones/phpLibros/phplibros.php">Publicaciones</a> </li>
-				<li><a href="/amdeco/registros_personal/personal.list.php">Registro Personal</a> </li>
-				<li><a href="/amdeco/enlacesacercade/login/cerrar.php">Cerrar Sesion</a></li>
+				<li><a href="/amdeco_website/eventos/index2.php">Eventos</a> </li>
+				<li><a href="/amdeco_website/Contactos/reportes.php">Contactos</a> </li>
+				<li><a href="/amdeco_website/noticias/admin/bannerlist.php">Noticias</a> </li>
+				<li><a href="/amdeco_website/publicaciones/phpLibros/phplibros.php">Publicaciones</a> </li>
+				<li><a href="/amdeco_website/registros_personal/personal.list.php">Registro Personal</a> </li>
+				<li><a href="/amdeco_website/enlacesacercade/login/cerrar.php">Cerrar Sesion</a></li>
 			</ol>
 
 			<div class="row">
