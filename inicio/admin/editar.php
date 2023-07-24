@@ -9,6 +9,7 @@ $nombre=$img_datos['title'];
 <html>
 	<head>
 		<title>EDITAR</title>
+		<link rel="icon" href="\amdeco_website\enlacesacercade\login\frontend\images\deco.ico" type="image/x-icon">
 	  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
 	</head>
 	<body>
