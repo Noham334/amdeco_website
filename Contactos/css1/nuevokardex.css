@@ -1,0 +1,13 @@
+body
+{
+	background-image: url("taxi2.jpg");
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	font-family: "Monotype Corsiva";
+	margin: 0 auto;
+	text-align: center;
+}
+.primero
+{
+	background-color: skyblue;
+}

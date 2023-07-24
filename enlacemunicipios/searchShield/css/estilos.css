@@ -1,0 +1,54 @@
+
+  .hide{
+  display:none;  
+	   }
+	   
+	   
+  
+    #wrap {
+      position:relative;
+	}
+	
+	
+    .product-head {
+      font-size:12px;
+	  padding:4px;
+	  width:260px;
+    }
+    .filterform input{
+	
+		 font-size:15px;
+		 padding:3px;
+		 border:1px solid #999;
+    }
+	
+
+		
+	li a{color:#000; font-family:Arial, Helvetica, sans-serif; font-size:11px}	
+		
+	ul{margin:0; padding:0;}	
+	
+	.clear{
+		clear:both;}
+		
+		
+	input[type=text] {
+  width: 280px;
+  box-sizing: border-box;
+  border: 1px solid  #8fe0fa ;
+  box-shadow: 0 0 0px  #0099ff ;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../Searc.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+
+		
+		
+  

@@ -1,0 +1,17 @@
+body
+{
+	
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	
+	margin: 0 auto;
+	
+}
+h1
+{
+	font-size: 80px;
+}
+.primero
+{
+	background-color: skyblue;
+}

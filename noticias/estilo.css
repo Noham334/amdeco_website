@@ -1,0 +1,26 @@
+/* Eliminamos flujo flotante (CSS3). */
+.holder-clear {         
+    height:   1%; 
+    width: 100%;  
+    overflow: hidden;    
+}
+
+/* Reglas estandares para nuestras cajas flotantes. */
+.col2, .col3, .col4 { 
+    float:left;
+    width: 100%;    
+}
+
+/* 2 cajas flotantes */
+.col2 { max-width: 50%; }
+
+/* 3 cajas flotantes */
+.col3 { max-width: 33.3%; } 
+
+ /* 4 cajas flotantes */
+.col4 { max-width: 25%; }
+
+.padding { padding: 1rem; }
+body { font-size: 16px; }
+#em1, #em2 { font-size: 1.5em; }
+

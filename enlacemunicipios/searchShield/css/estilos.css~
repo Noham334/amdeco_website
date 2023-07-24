@@ -1,0 +1,67 @@
+
+  .hide{
+  display:none;  
+}
+    body {
+      background:#fff
+      font-size:13px;
+    }
+    #wrap {
+      position:relative;
+	}
+	
+	.product-head h1{font-size:14px; font-family:Arial, Helvetica, sans-serif; margin-bottom:3px; margin-left:3px;}
+	
+    .product-head {
+      font-size:12px;
+	  padding:4px;
+	  background-color:#ccc;
+	  width:235px;
+    }
+    .filterform input{
+	
+		 font-size:15px;
+		 padding:3px;
+		 border:1px solid #999;
+    }
+	
+	li{
+		padding:5px;
+		margin:3px;
+		list-style:none;
+		width:230px;
+		border-top:1px solid #ccc;
+		}
+		
+	li a{color:#000; font-family:Arial, Helvetica, sans-serif; font-size:11px}	
+		
+	ul{margin:0; padding:0;}	
+	
+	.clear{
+		clear:both;}
+		
+		
+		
+		
+		input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px   #5dade2;
+  border: 2px solid  #5dade2 ;
+  border-radius: 15px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  
+
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+  

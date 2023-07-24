@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Amdeco</title>
+    <meta charset="utf-8">
+	 <meta name="author" content="AMDECO" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
+<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="inicio/carrusel/engine1/style.css" />
+	<script type="text/javascript" src="inicio/carrusel/engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/estilos.css">
+	<meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="images/deco.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="noticias/estilo.css">
+  <!--
+      ========================================================
+      							ADMIN
+      ========================================================
+      
+      
+      -->
+  	 <?php
+        include "inicio/admin/db.php";
+        $images = get_foto();
+      ?>
+      
+<!--script traido de webam-->
+<script src="js\superfish.js"></script>
+<script src="js\jquery.responsivemenu.js"></script>
+<script src="js\jquery.flexslider-min.js"></script>
+<script src="js\FF-cash.js"></script>
+ <script src="js/device.min.js"></script>
+  </head>
+  <!-- para el Facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  <body>
+    <div class="page">
+      <!--
+      ========================================================
+      							HEADER
+      ========================================================
+      
+      
+      -->
+      <header>
+        <?php include './include/header.php';?>
+      </header>
+      <!--
+      ========================================================
+                                  CARRUSEL
+      ========================================================
+      -->
+   
+<?php if(count($images)>0):?>
+<!-- aqui insertaremos el slider -->
+<div id="carousel1" class="carousel slide" data-ride="carousel">
+  <!-- Indicadores -->
+  <ol class="carousel-indicators">
+<?php $cnt=0; foreach($images as $img):?>
+    <li data-target="#carousel1" data-slide-to="0" class="<?php if($cnt==0){ echo 'active'; }?>"></li>
+<?php $cnt++; endforeach; ?>
+  </ol>
+
+  <!-- Contenedor de las imagenes -->
+  <div class="carousel-inner" role="listbox">
+<?php $cnt=0; foreach($images as $img):?>
+    <div class="item <?php if($cnt==0){ echo 'active'; }?>">
+      <img src="<?php echo 'inicio/admin/'.$img->folder.$img->src; ?> " alt="Imagen 1" width="1800" height="900" >
+      <div class="carousel-caption"><?php echo "<h4>".$img->title; ?></div>
+    </div>
+<?php $cnt++; endforeach; ?>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+
+</div>
+<?php else:?>
+  <h4 class="alert alert-warning">No hay imagenes</h4>
+<?php endif; ?>
+
+
+</div>
+<script src="inicio/jquery.min.js"></script>
+<script src="inicio/bootstrap/js/bootstrap.min.js"></script>
+
+</div>
+<style>
+h4 {
+	  
+    color: white;
+   
+  border-radius: 25px;
+    text-align: center;
+	 font-weight: bold;
+	background-color:rgba(60, 221, 236, 0.51);
+}
+</style>
+
+
+ <!--
+      ========================================================
+                     NOTICIAS PAGINA PRINCIPAL
+      ========================================================
+      -->
+ <br>
+        <!--<section>
+        
+        </section>-->
+  <div class="container-fluid">
+            <ul class="row product-list">
+            <?php include "noticias/Consultas.php"; $noticias=Noticias(); ?>
+            </ul>
+          </div>
+ <br>
+		 <!--
+      ========================================================
+                     BANNER DE FACEBOOK
+      ========================================================
+      -->
+		
+        <section class="well1">
+          <div class="container">
+            <div class="row">
+              <div class="grid_4">
+                <h2>Nuestro Facebook »</h2>
+                <p>Visitenos en las redes sociales:</p>
+                <div class="fb-page" data-href="https://www.facebook.com/RedAMDECO/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/RedAMDECO/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RedAMDECO/">AMDECO</a></blockquote></div> 
+              </div>     
+                <div class="row">
+                <div class="grid_4">
+                </div>
+         <div class="grid_4">
+                <div class="info-box">
+                  <h3 class="fa-comment">Eventos-Talleres »</h3>
+                  <dl>
+                  <!--<img src="images/page-1_img01.jpg" alt="">-->
+                   <marquee direction="up" scrollamount="1" width="200" height="240" onmouseover="this.stop();" onmouseout="this.start();">
+                    <div style="position:relative; top:3px; left:2px">
+                      <script>escribe()</script>
+                </div>                                        <?php
+                        include "eventos/db.php";
+                        $images = get_imgs();
+                      ?>
+                </div>
+                  <?php foreach($images as $img):?>
+                    <a href="eventos/viewdocument.php?id=<?php echo $img->idEvento?>" class="GenEnlRes"><?php echo $img->titulo; ?></a><br>
+                      Fecha del evento&nbsp;<?php $fecha=$img->fecha; $fecha1= date("m-d-Y", strtotime("$fecha"));
+                      echo $fecha1; ?><br>
+
+
+                  <?php endforeach;?>
+                    </marquee>
+                
+                  </dl>
+                </div>
+              </div>
+            </div>
+          
+        </section>
+      </main>
+      <!--
+      ========================================================
+                                  FOOTER
+      ========================================================
+      -->
+    <footer>
+        <?php include './include/footer.php';?>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
