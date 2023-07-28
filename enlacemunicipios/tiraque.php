@@ -1,5 +1,5 @@
 <!DOCTYPE php>
-<php lang="en">
+<html lang="en">
   <head>
     <title>Tiraque</title>
     <meta charset="utf-8">
@@ -200,4 +200,4 @@ Otros atractivos que oferta el municipio son: Ch´ejta Rumi, Árbol Centenario p
     </div>
     <script src="js/script.js"></script>
   </body>
-</php>
+</html>

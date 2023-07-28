@@ -1,5 +1,5 @@
 <!DOCTYPE php>
-<php lang="en">
+<html lang="en">
   <head>
     <title>Tiquipaya</title>
     <meta charset="utf-8">
@@ -205,4 +205,4 @@ Los lugares recomendados para práctica de turismo de aventura son las lagunas d
     </div>
     <script src="js/script.js"></script>
   </body>
-</php>
+</html>

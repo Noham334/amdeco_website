@@ -1,10 +1,10 @@
 <!DOCTYPE php>
-<php lang="en">
+<html lang="en">
   <head>
     <title>Arani</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/deco.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -238,4 +238,4 @@ Pocoata, cantón del municipio ofrece una magia y encanto únicos. Esta hermosa 
     </div>
     <script src="js/script.js"></script>
   </body>
-</php>
+</html>
