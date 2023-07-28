@@ -1,5 +1,5 @@
 <!DOCTYPE php>
-<php lang="en">
+<html lang="en">
   <head>
     <title>Tarata</title>
     <meta charset="utf-8">
@@ -198,4 +198,4 @@ Casa del Gral. Mariano Melgarejo lugar donde nació este controvertido personaje
     </div>
     <script src="js/script.js"></script>
   </body>
-</php>
+</html>

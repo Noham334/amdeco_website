@@ -1,10 +1,10 @@
 <!DOCTYPE php>
-<php lang="en">
+<html lang="en">
   <head>
     <title>Tacopaya</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/deco.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -221,4 +221,4 @@ Aguas Calientes, a 45 minutos de viaje desde Tacopaya, por la antigua vía férr
     </div>
     <script src="js/script.js"></script>
   </body>
-</php>
+</html>

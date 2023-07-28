@@ -1,5 +1,5 @@
 <!DOCTYPE php>
-<php lang="en">
+<html lang="en">
   <head>
     <title>Totora</title>
     <meta charset="utf-8">
@@ -168,4 +168,4 @@
     </div>
     <script src="js/script.js"></script>
   </body>
-</php>
+</html>

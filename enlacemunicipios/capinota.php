@@ -1,10 +1,10 @@
 <!DOCTYPE php>
-<php lang="en">
+<html lang="en">
   <head>
     <title>Capinota</title>
    <meta http-equiv="Content-Type" content="text/php; charset=utf-8"/>
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/deco.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -246,4 +246,4 @@ Estación de Trenes de Buen Retiro, la apertura de las vías ferroviarias entre 
     <script src="js/script.js"></script>
   </body>
   </body>
-</php>
+</html>
