@@ -139,8 +139,8 @@
           <br>
           <p class="text-muted"><strong>HISTORIA</strong></p>
           <p class="text-muted">
-            Creada el 6 de octubre de 1926, y oficializada como tal el 5 de marzo de 1927, el municipio de Pasorapa cumple este 2015, sus 88 años de vida autónoma.<br>
-            No obstante, al parecer el surgimiento de esta población data al siglo XVIII, pues su iglesia primogénita fue construida el 8 de octubre de 1782.
+            Creada el 6 de octubre de 1926, y oficializada como tal el 5 de marzo de 1927, el municipio de Pasorapa cumple este 2023, sus 96 años de vida autónoma.<br>
+            No obstante, al parecer el surgimiento de esta población data al siglo XVIII, pues su iglesia primogénita fue construida el 8 de octubre de 1782, indício de la antiguedad de su cultura muy importante para Cochabamba.
 
           </p><br>
           <p class="text-muted"><strong>TURÍSMO</strong></p>
