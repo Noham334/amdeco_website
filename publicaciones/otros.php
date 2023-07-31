@@ -38,7 +38,9 @@
       
       
       -->
-  <?php include_once("../include/header.php") ?>
+      <header>
+        <?php include './include/header.php';?>
+      </header>
   <!--
       ========================================================
                                   CONTENT

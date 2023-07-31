@@ -47,7 +47,7 @@
             
             <div class='btn-container'>
                 <button type="submit">Ingresar<label class="lnr lnr-chevron-right"></a></label></button>
-                <button type="button" onclick="window.location.href='/amdeco/';">Cancelar<label class="lnr lnr-cross-circle "></label></button>
+                <button type="button" onclick="window.location.href='/amdeco_website/';">Cancelar<label class="lnr lnr-cross-circle "></label></button>
             </div>
  
             

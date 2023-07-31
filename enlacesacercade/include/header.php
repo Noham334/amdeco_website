@@ -22,12 +22,12 @@
                 <li><a href="..\municipios.php">Municipios</a></li>
                 <li><a href="..\publicaciones.php">Publicaciones</a>
 				          <ul>
-                    <li><a href="..\publicaciones\libros.php" target="_parent"><img src="publicaciones/iconos/Libros.png" alt="">Libros</a><li>
-                    <li><a href="..\publicaciones\folletos.php" target="_parent"><img src="publicaciones/iconos/folletos.png" alt="">Folletos</a><li>
-                    <li><a href="..\publicaciones\leyes.php" target="_parent"><img src="publicaciones/iconos/leyes.png" alt="">Leyes</a><li>
-                    <li><a href="..\publicaciones\municipios.php" target="_parent"><img src="publicaciones/iconos/municipios.png" alt="">Municipios</a><li>
-                    <li><a href="..\publicaciones\amdeco.php" target="_parent"><img src="publicaciones/iconos/amdeco.png" alt="">Amdeco</a><li>
-                    <li><a href="..\publicaciones\otros.php" target="_parent"><img src="publicaciones/iconos/varios.png" alt="">Otros</a><li>
+                    <li><a href="..\publicaciones\libros.php" target="_parent"><img src="..\publicaciones/iconos/Libros.png" alt="">Libros</a><li>
+                    <li><a href="..\publicaciones\folletos.php" target="_parent"><img src="..\publicaciones/iconos/folletos.png" alt="">Folletos</a><li>
+                    <li><a href="..\publicaciones\leyes.php" target="_parent"><img src="..\publicaciones/iconos/leyes.png" alt="">Leyes</a><li>
+                    <li><a href="..\publicaciones\municipios.php" target="_parent"><img src="..\publicaciones/iconos/municipios.png" alt="">Municipios</a><li>
+                    <li><a href="..\publicaciones\amdeco.php" target="_parent"><img src="..\publicaciones/iconos/amdeco.png" alt="">Amdeco</a><li>
+                    <li><a href="..\publicaciones\otros.php" target="_parent"><img src="..\publicaciones/iconos/varios.png" alt="">Otros</a><li>
                   </ul>
                 </li>
                 <li><a href="..\noticias.php">Noticias</a></li>
@@ -38,6 +38,12 @@
                     <li><a href="..\registros_lista.php" target="_parent"><img src="..\publicaciones/iconos/lista.png" alt="" width="30px">Lista</a><li>
                   </ul>
                 </li>
+                <li><a href="#">Administracion</a>
+            <ul>
+              <li><a href="..\enlacesacercade\login\login.php" target="_parent"><img src="..\publicaciones/iconos/login.png" alt="" width="30px">Login</a></li>
+
+            </ul>
+          </li>
               </ul>
             </nav>
           </div>

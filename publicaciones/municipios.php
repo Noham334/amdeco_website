@@ -38,66 +38,9 @@
       
       
       -->
-  <header>
-    <div class="container">
-      <div class="brand">
-        <h1 class="brand_name"><img src="images/amdecologo.png"><a href="./"></a></h1>
-        <p class="brand_slogan"></p>
-
-      </div><a href="" class=""></a>
-
-    </div>
-    <div id="stuck_container" class="stuck_container">
-      <div class="container">
-        <nav class="nav">
-          <ul data-type="navbar" class="sf-menu">
-            <li><a href="..\index.php">Inicio</a>
-              <ul>
-
-              </ul>
-            </li>
-            <li><a href="..\index-1acercade.php">Acerca De</a>
-              <ul>
-                <li><a href="..\enlacesacercade\quienessomos.php" target="_parent">Quienes somos</a></li>
-                <li><a href="..\enlacesacercade\misionyvision.php" target="_parent">Misión y Visión</a></li>
-                <li><a href="#">Organigrama</a></li>
-                <li><a href="..\enlacesacercade\consejo.php" target="_parent">Consejo directivo</a></li>
-                <li><a href="..\enlacesacercade\autoridades.php" target="_parent">Autoridades</a></li>
-              </ul>
-            </li>
-            <li><a href="..\municipios.php">Municipios</a>
-            </li>
-            <li class="active"><a href="..\publicaciones.php">Publicaciones</a>
-              <ul>
-                <li><a href="..\publicaciones\libros.php" target="_parent"><img src="iconos\Libros.png" alt="">Libros</a>
-                <li>
-                <li><a href="..\publicaciones\folletos.php" target="_parent"><img src="iconos\folletos.png" alt="">Folletos</a>
-                <li>
-                <li><a href="..\publicaciones\leyes.php" target="_parent"><img src="iconos\leyes.png" alt="">Leyes</a>
-                <li>
-                <li><a href="..\publicaciones\municipios.php" target="_parent"><img src="iconos\municipios.png" alt="">Municipios</a>
-                <li>
-                <li><a href="..\publicaciones\amdeco.php" target="_parent"><img src="iconos\amdeco.png" alt="">Amdeco</a>
-                <li>
-                <li><a href="..\publicaciones\otros.php" target="_parent"><img src="iconos\varios.png" alt="">Otros</a>
-                <li>
-
-
-
-              </ul>
-            </li>
-            <li><a href="..\noticias.php">Noticias</a>
-              <ul>
-                <li><a href="#">Informacion reciente</a></li>
-              </ul>
-            </li>
-            <li><a href="..\contactos.php">Contactos</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
+      <header>
+        <?php include './include/header.php';?>
+      </header>
   <!--
       ========================================================
                                   CONTENT
