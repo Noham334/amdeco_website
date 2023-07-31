@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
-    <title>Amdeco</title>
+    <title>Folletos</title>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="format-detection" content="telephone=no">
@@ -45,12 +45,12 @@
           <div class="container">
             <nav class="nav">
                 <ul data-type="navbar" class="sf-menu">
-                <li><a href="http://localhost/amdeco/publicaciones/phpLibros/phplibros.php">Libros</a></li>
-                    <li class="active"><a href="/amdeco/publicaciones/phpfolletos/phpfolletos.php">Folletos</a></li>
-                    <li><a href="/amdeco/publicaciones/phpLeyes/phpleyes.php">Leyes</a></li>
-                    <li><a href="/amdeco/publicaciones/phpMunicipios/phpmunicipios.php">Municipios</a></li>
-                    <li><a href="/amdeco/publicaciones/phpAmdeco/amdeco.php">Amdeco</a></li>
-                    <li><a href="/amdeco/publicaciones/phpVarios/phpvarios.php">Otros</a></li>
+                <li><a href="/amdeco_website/publicaciones/phpLibros/phplibros.php">Libros</a></li>
+                    <li class="active"><a href="/amdeco_website/publicaciones/phpfolletos/phpfolletos.php">Folletos</a></li>
+                    <li><a href="/amdeco_website/publicaciones/phpLeyes/phpleyes.php">Leyes</a></li>
+                    <li><a href="/amdeco_website/publicaciones/phpMunicipios/phpmunicipios.php">Municipios</a></li>
+                    <li><a href="/amdeco_website/publicaciones/phpAmdeco/amdeco.php">Amdeco</a></li>
+                    <li><a href="/amdeco_website/publicaciones/phpVarios/phpvarios.php">Otros</a></li>
                   </ul>
             </nav>
           </div>

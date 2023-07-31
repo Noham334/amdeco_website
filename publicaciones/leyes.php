@@ -190,7 +190,10 @@
                                   FOOTER
       ========================================================
       -->
-  <?php include '../include/footer.php'; ?>
+      <footer>
+      <?php include '../include/footer.php'; ?>
+      </footer>
+  
 
   <script src="js/script.js"></script>
   </body>

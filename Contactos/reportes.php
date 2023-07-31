@@ -2,9 +2,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Contactos</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="\amdeco_website\enlacesacercade\login\frontend\images\deco.ico" type="image/x-icon">
   <link rel="stylesheet" href="css1/bootstrap.min.css">
    <link rel="stylesheet" href="css1/reportes.css">
   <script src="lib/jquery.js"></script>
@@ -17,14 +18,14 @@
 <body >
     <ol class="breadcrumb">
       
-    <li><a href="/amdeco/enlacesacercade/login/principal.php">Inicio</a></li>
-    <li><a href="/amdeco/enlacesacercade/admin/bannerlist.php">Alcaldes</a> </li>
-    <li><a href="/amdeco/eventos/index2.php">Eventos</a> </li>
+    <li><a href="/amdeco_website/enlacesacercade/login/principal.php">Inicio</a></li>
+    <li><a href="/amdeco_website/enlacesacercade/admin/bannerlist.php">Alcaldes</a> </li>
+    <li><a href="/amdeco_website/eventos/index2.php">Eventos</a> </li>
     <li class="active">Contactos</li>
-    <li><a href="/amdeco/noticias/admin/bannerlist.php">Noticias</a> </li>
-    <li><a href="http://localhost/amdeco/publicaciones/phpLibros/phplibros.php">Publicaciones</a> </li>
-    <li><a href="/amdeco/registros_personal/personal.list.php">Registro Personal</a> </li>
-    <li><a href="/amdeco/enlacesacercade/login/cerrar.php">Cerrar Sesion</a></li>
+    <li><a href="/amdeco_website/noticias/admin/bannerlist.php">Noticias</a> </li>
+    <li><a href="/amdeco_website/publicaciones/phpLibros/phplibros.php">Publicaciones</a> </li>
+    <li><a href="/amdeco_website/registros_personal/personal.list.php">Registro Personal</a> </li>
+    <li><a href="/amdeco_website/enlacesacercade/login/cerrar.php">Cerrar Sesion</a></li>
 </ol>
    
       <div class="container">
