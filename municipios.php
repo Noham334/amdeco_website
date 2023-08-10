@@ -16,15 +16,9 @@
     <script src="js/html5shiv.js"></script><![endif]-->
   <script src="js/device.min.js"></script>
 
-
-
-
   <link rel="stylesheet" href="enlacemunicipios/searchShield/css/estilos.css">
 
-
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-
 
 </head>
 
