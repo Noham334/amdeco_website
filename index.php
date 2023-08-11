@@ -79,9 +79,9 @@
           $cnt = 0;
           foreach ($images as $img) :
           ?>
-            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="<?php echo $cnt ?>" aria-label="Slide <?php echo ($cnt + 1); ?>" class="<?php if ($cnt == 0) {
-                                                                                                                                                          echo 'active';
-                                                                                                                                                        } ?>"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="<?php echo $cnt ?>" aria-label="Slide <?php echo ($cnt + 1); ?>" class="<?php if ($cnt == 0)
+             { echo 'active'; }?>">
+             </button>
           <?php
             $cnt++;
           endforeach;
@@ -94,9 +94,8 @@
           $cnt = 0;
           foreach ($images as $img) :
           ?>
-            <div data-bs-interval="10000" class="carousel-item <?php if ($cnt == 0) {
-                                                                  echo 'active';
-                                                                } ?>">
+            <div data-bs-interval="10000" class="carousel-item <?php if ($cnt == 0)
+             { echo 'active'; } ?>">
               <img src="<?php echo 'inicio/admin/' . $img->folder . $img->src; ?>" alt="Imagen <?php echo ($cnt + 1); ?>" class="d-block w-100">
               <div class="carousel-caption"><?php echo "<h4>" . $img->title; ?></div>
             </div>
@@ -164,7 +163,7 @@
 
   <section class="well1">
     <div class="container">
-      <div class="row">
+      <div class="flex">
         <div class="grid_4">
           <h2>Nuestro Facebook »</h2>
           <p>Visitenos en las redes sociales:</p>
@@ -172,16 +171,17 @@
             <blockquote cite="https://www.facebook.com/RedAMDECO/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RedAMDECO/">AMDECO</a></blockquote>
           </div>
         </div>
-        <div class="row">
+        <div class="d-flex">
           <div class="grid_4">
           </div>
           <div class="grid_4">
             <div class="info-box">
-              <h3 class="fa-comment">Eventos-Talleres »</h3>
+              <h3 class="fa-comment">Eventos-Talleres</h3>
               <dl>
-                <!--<img src="images/page-1_img01.jpg" alt="">-->
-                <marquee direction="up" scrollamount="1" width="200" height="240" onmouseover="this.stop();" onmouseout="this.start();">
-                  <div style="position:relative; top:3px; left:2px">
+                <br>
+                <img src="images/capacitacion.png" alt="">
+                <marquee direction="up" scrollamount="2" width="200" height="240" onmouseover="this.stop();" onmouseout="this.start();">
+                  <div style="position:relative; top:5px; left:2px">
                     <script>
                       escribe()
                     </script>
@@ -204,7 +204,6 @@
           </div>
         </div>
       </div>
-
   </section>
   </main>
   <!--
