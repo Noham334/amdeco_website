@@ -154,10 +154,10 @@
 
 
       <section class="well1 ins3 bg-primary">
-        <div class="container">
-          <center>
+      <center>
             <h2>MUNICIPIOS DE COCHABAMBA</h2>
           </center>
+        <div class="container">
           <div class="row off2">
 
 
@@ -412,11 +412,63 @@ Entre Ríos se encuentra en una de las regiones con mayor potencialidad en la pr
                                   FOOTER
       ========================================================
       -->
-    <footer>
-      <?php include './include/footer.php'; ?>
-    </footer>
+      <footer>
+     
+    <!-- fontawesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+      <div class="container">
+        <div class="row ">
+            <div class="col-md-4 text-center text-md-left ">
+
+                <div class="py-0">
+                    <p class="footer-links font-weight-bold">
+                        <br>
+                        <br>
+                        <a class="text-info" href="index.php">Inicio</a>
+                        |
+                        <a class="text-info" href="noticias.php">Noticias</a>
+                        |
+                        <a class="text-info" href="nosotros.php">Acerca de</a>
+                        |
+                        <a class="text-info" href="contactos.php">Contacto</a>
+                    </p>
+                    <p class="text-light py-4 mb-4">&copy;Amdeco © 2022. Política de privacidad</p>
+
+                </div>
+            </div>
+
+            <div class="col-md-4 text-white text-center text-md-left ">
+                <div class="py-2 my-4">
+                    <div>
+                        <p class="text-white"> <i class="fa fa-map-marker mx-2 "></i>
+                            Calle J. de los Ríos Nº 317, entre Circunvalación y E. Perez</p>
+                    </div>
+
+                    <div>
+                        <p><i class="fa fa-phone  mx-2 "></i>+4 4457404</p>
+                    </div>
+                    <div>
+                        <p><i class="fa fa-envelope  mx-2"></i><a href="mailto:amdeco@amdeco.org.bo">amdeco@amdeco.org.bo</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-white my-4 text-center text-md-left ">
+                <span class=" font-weight-bold ">SIGUENOS EN NUESTRAS REDES:</span>
+                <p class="text-info my-2"></p>
+                <div class="py-2">
+                    <a href="https://www.facebook.com/RedAMDECO"><i class="fab fa-facebook fa-3x text-primary mx-3"></i></a>
+                    <a href="https://mobile.twitter.com/hashtag/AMDECO?src=hash&f=live"><i class="fab fa-twitter fa-3x text-info mx-3"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
   </div>
   <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 
 </html>
