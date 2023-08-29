@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <div class="">
     <div class="brand">
@@ -42,7 +43,7 @@
           <li><a href="noticias.php">Noticias</a></li>
           <li><a href="contactos.php">Contactos</a></li>
           <li><a href="pmi.php">PMI-FCM</a></li>
-          <li><a href="#">Registros</a>
+          <li class="no-border"><a href="#">Registros</a>
             <ul>
               <li><a href="registros.php" target="_parent"><img src="publicaciones/iconos/buscar.png" alt="" width="30px">Buscar</a>
               <li>
@@ -55,4 +56,5 @@
     </div>
   </div>
 </head>
+
 </html>

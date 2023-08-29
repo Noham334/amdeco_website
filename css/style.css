@@ -1605,6 +1605,10 @@ footer .bar-wrap {
 	}
 }
 
+.nav ul li.no-border a {
+	border-right: none;
+}
+
 div.container nav ul {
 	margin-bottom: 0px;
 	padding: 0.3rem 0px;
