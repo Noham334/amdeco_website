@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
+
 <head>
-  <div class="">
+  <div class="container">
     <div class="brand">
       <h1 class="brand_name"><img src="images/logoamdeco1.jpg"><a href="./"></a></h1>
       <p class="brand_slogan"></p>
@@ -9,8 +10,8 @@
 
   </div>
   <div id="stuck_container" class="stuck_container">
-    <div class="container">
-      <nav class="nav">
+    <div class="container d-flex justify-content-center align-content-center">
+      <nav class="nav d-flex align-content-center">
         <ul data-type="navbar" class="sf-menu">
           <li><a href="index.php">Inicio</a></li>
           <li><a href="nosotros.php">Acerca de</a>
@@ -42,7 +43,7 @@
           <li><a href="noticias.php">Noticias</a></li>
           <li><a href="contactos.php">Contactos</a></li>
           <li><a href="pmi.php">PMI-FCM</a></li>
-          <li><a href="#">Registros</a>
+          <li><a class="no-border" href="#">Registros</a>
             <ul>
               <li><a href="registros.php" target="_parent"><img src="publicaciones/iconos/buscar.png" alt="" width="30px">Buscar</a>
               <li>
@@ -50,9 +51,16 @@
               <li>
             </ul>
           </li>
+          <li><a href="#">Administracion</a>
+            <ul>
+              <li><a href="enlacesacercade\login\login.php" target="_parent"><img src="publicaciones/iconos/login.png" alt="" width="30px">Login</a></li>
+
+            </ul>
+          </li>
         </ul>
       </nav>
     </div>
   </div>
 </head>
+
 </html>
