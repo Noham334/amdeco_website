@@ -1,10 +1,9 @@
 <!doctype html>
 <html>
-
 <head>
-  <div class="container">
+  <div class="">
     <div class="brand">
-      <h1 class="brand_name"><img src="images/logoamdeco.jpg"><a href="./"></a></h1>
+      <h1 class="brand_name"><img src="images/logoamdeco1.jpg"><a href="./"></a></h1>
       <p class="brand_slogan"></p>
     </div><a href="" class=""></a>
 
@@ -51,16 +50,9 @@
               <li>
             </ul>
           </li>
-          <li><a href="#">Administracion</a>
-            <ul>
-              <li><a href="enlacesacercade\login\login.php" target="_parent"><img src="publicaciones/iconos/login.png" alt="" width="30px">Login</a></li>
-
-            </ul>
-          </li>
         </ul>
       </nav>
     </div>
   </div>
 </head>
-
 </html>
