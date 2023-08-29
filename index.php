@@ -124,7 +124,7 @@
     <div class="eventos-container d-flex flex-wrap">
       <div class="info-box d-flex flex-wrap">
         <h3 class="fa-comment">Eventos-Talleres</h3>
-        <dl>
+        <div>
           <br>
           <img src="images/capacitacion.png" alt="">
           <marquee direction="up" scrollamount="2" width="200" height="240" onmouseover="this.stop();" onmouseout="this.start();">
@@ -136,46 +136,47 @@
                     include "eventos/db.php";
                     $images = get_imgs();
                     ?>
+        </div>
+        <?php foreach ($images as $img) : ?>
+          <a href="eventos/viewdocument.php?id=<?php echo $img->idEvento ?>" class="GenEnlRes"><?php echo $img->titulo; ?></a><br>
+          Fecha del evento&nbsp;<?php $fecha = $img->fecha;
+                                $fecha1 = date("m-d-Y", strtotime("$fecha"));
+                                echo $fecha1; ?><br>
+
+
+        <?php endforeach; ?>
+
       </div>
-      <?php foreach ($images as $img) : ?>
-        <a href="eventos/viewdocument.php?id=<?php echo $img->idEvento ?>" class="GenEnlRes"><?php echo $img->titulo; ?></a><br>
-        Fecha del evento&nbsp;<?php $fecha = $img->fecha;
-                              $fecha1 = date("m-d-Y", strtotime("$fecha"));
-                              echo $fecha1; ?><br>
-
-
-      <?php endforeach; ?>
-
     </div>
   </div>
-</div>
-<footer>
-  <?php include './include/footer.php'; ?>
-</footer>
-<script src="js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<script src="inicio/jquery.min.js"></script>
-<script src="inicio/bootstrap/js/bootstrap.min.js"></script>
-<style>
-  h4 {
-    color: white;
-    border-radius: 25px;
-    text-align: center;
-    font-weight: bold;
-    background-color: rgba(60, 221, 236, 0.51);
-  }
-</style>
-<script>
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-</body>
 
+  <footer>
+    <?php include './include/footer.php'; ?>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="inicio/jquery.min.js"></script>
+  <script src="inicio/bootstrap/js/bootstrap.min.js"></script>
+  <style>
+    h4 {
+      color: white;
+      border-radius: 25px;
+      text-align: center;
+      font-weight: bold;
+      background-color: rgba(60, 221, 236, 0.51);
+    }
+  </style>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+</body>
 </html>
