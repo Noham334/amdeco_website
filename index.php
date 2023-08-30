@@ -29,7 +29,7 @@ $images = get_foto();
 
     <?php if (count($images) > 0) : ?>
       <!-- aqui insertaremos el slider -->
-      <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="carousel1" class="carousel slide carousel-fade mt-2" data-bs-ride="carousel">
         <!-- Indicadores -->
         <div class="carousel-indicators">
           <?php
