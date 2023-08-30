@@ -1,3 +1,7 @@
+<?php
+include "inicio/admin/db.php";
+$images = get_foto();
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -5,43 +9,17 @@
   <title>Amdeco</title>
   <meta charset="utf-8">
   <meta name="author" content="AMDECO" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-  <link rel="stylesheet" type="text/css" href="inicio/carrusel/engine1/style.css" />
-  <script type="text/javascript" src="inicio/carrusel/engine1/jquery.js"></script>
-  <!-- End WOWSlider.com HEAD section -->
-
-  <link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/estilos.css">
-  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width" />
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/camera.css">
-  <link rel="stylesheet" href="css/owl-carousel.css">
+  <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="noticias/estilo.css">
-  <!--
-      ========================================================
-      							ADMIN
-      ========================================================
-      
-      
-      -->
-  <?php
-  include "inicio/admin/db.php";
-  $images = get_foto();
-  ?>
-
-  <!--script traido de webam-->
-  <script src="js\superfish.js"></script>
-  <script src="js\jquery.responsivemenu.js"></script>
-  <script src="js\jquery.flexslider-min.js"></script>
-  <script src="js\FF-cash.js"></script>
-  <script src="js/device.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/script.js"></script>
 </head>
-<!-- para el Facebook -->
-<div id="fb-root"></div>
-
 
 <body>
   <div class="page carousel">
@@ -153,19 +131,9 @@
   ?>
 
   <script src="js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="js/common.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-  <script src="inicio/jquery.min.js"></script>
-  <script src="inicio/bootstrap/js/bootstrap.min.js"></script>
-  <style>
-    h4 {
-      color: white;
-      border-radius: 25px;
-      text-align: center;
-      font-weight: bold;
-      background-color: rgba(60, 221, 236, 0.51);
-    }
-  </style>
+  <script src="./js/jquery.min.js"></script>
   <script>
     (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
