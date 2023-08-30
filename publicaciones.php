@@ -14,7 +14,7 @@
     </php>
     <script src="js/php5shiv.js"></script><![endif]-->
     <script src="js/device.min.js"></script>
-	
+    <link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/bootstrap.min.css">
 	  <!-- Insert to your webpage before the </head> -->
     <script src="publicaciones/publicacionsSlider/sliderengine/jquery.js"></script>
     <script src="publicaciones/publicacionsSlider/sliderengine/amazingslider.js"></script>

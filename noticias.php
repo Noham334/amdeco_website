@@ -23,7 +23,7 @@ include("noticias/conexion.php");
     <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.js"></script>
     <title>Noticias Amdeco</title>
-
+    <link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/bootstrap.min.css">
     <script src="js/device.min.js"></script>
 </head>
 

@@ -13,6 +13,12 @@
       <div style="clear: both; text-align:center; position: relative;"><a href="http://windows.microsoft.com/en-US/internet-explorer/.."><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     </php>
     <script src="js/php5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/estilos.css">
+
+  <link rel="stylesheet" href="css/camera.css">
+  <link rel="stylesheet" href="css/owl-carousel.css">
+  <link rel="stylesheet" href="noticias/estilo.css">
     <script src="js/device.min.js"></script>
   </head>
   <body>
@@ -112,12 +118,7 @@
           </div>
         </section>
         
-        <section class="well1 ins3 bg-primary">
-          <div class="container">
-            <h2></h2>
-            
-          </div>
-        </section>
+      
         
        
       <!--
@@ -125,10 +126,15 @@
                                   FOOTER
       ========================================================
       -->
-      <footer>
-        <?php include './include/footer.php';?>
-      </footer>
-    </div>
-    <script src="js/script.js"></script>
+      <?php
+  // FOOTER
+  include './include/footer.php';
+  ?>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="inicio/jquery.min.js"></script>
+  <script src="inicio/bootstrap/js/bootstrap.min.js"></script>
+  <style>
   </body>
 </html>
