@@ -82,11 +82,9 @@ $images = get_foto();
   </div>
   <br>
   <section class="well1">
-    <div class="container-fluid">
-      <ul class="row product-list">
-        <?php include "noticias/Consultas.php";
-        $noticias = Noticias(); ?>
-      </ul>
+    <div class="noticias">
+      <?php include "noticias/Consultas.php";
+      $noticias = Noticias(); ?>
     </div>
     <div class="container">
       <div class="row d-flex justify-content-between">
