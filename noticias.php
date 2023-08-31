@@ -10,20 +10,19 @@ include("noticias/conexion.php");
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="images/deco.ico" type="image/x-icon">
+    <title>Noticias Amdeco</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/google-map.css">
     <link rel="stylesheet" href="css/mailform.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.2.1.js"></script>
-    <title>Noticias Amdeco</title>
-    <link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
     <script src="js/device.min.js"></script>
 </head>
 

@@ -6,8 +6,12 @@
 
 /*TEXTO JUSTIFICADO*/
 div {
-	text-align: justify;
+	text-align: left;
 	text-justify: inter-word;
+}
+
+p {
+	margin-bottom: 10px;
 }
 /*========================================================
 					  Main Styles
@@ -792,9 +796,9 @@ nav {
 	display: block;
 	margin: 0px 0px 0px 0px;
 	position: relative;
-	color: #666;
 	text-transform: uppercase;
-	font-family: OpenSansRegular;
+	font-family: 'Open Sans';
+	font-weight: 500;
 }
 nav ul {
 	padding: 0;
@@ -817,18 +821,24 @@ nav li {
 	margin-left: 5px;
 	line-height: 76px;
 }
+
+nav ul li,
+nav ul li a {
+	color: rgb(21, 63, 105);
+}
+
 nav li:hover,
 nav li a:hover {
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-	background: #555;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+	background: #57aacd;
 	color: #fff;
 }
 nav li.active {
-	background: #555;
+	background: #57aacd;
 }
 nav li.active a {
 	color: #fff;
@@ -864,9 +874,25 @@ nav a span {
 nav ul ul {
 	display: none;
 	position: absolute;
-	background: #555;
+	background: #57aacd;
 	left: 0px;
-	min-width: 150px;
+	min-width: 145px;
+}
+
+nav ul .ul-registro {
+	display: none;
+	position: absolute;
+	background: #57aacd;
+	left: 0px;
+	min-width: 107px;
+}
+
+nav ul .ul-nosotros {
+	display: none;
+	position: absolute;
+	background: #57aacd;
+	left: 0px;
+	min-width: 110px;
 }
 
 nav ul li {
@@ -1611,18 +1637,14 @@ a[href^='callto:']:hover {
 .ins5 {
 	padding-top: 44px;
 }
+/*========================================================
+					 CAROUSEL  Styles
+=========================================================*/
 
 /*========================================================
 					 FOOTER  Styles
 =========================================================*/
 
-* {
-	margin: 0;
-	padding: 0;
-}
-@font-face {
-	font-family: 'zocial', sans-serif;
-}
 [data-icon]:before {
 	font-family: 'zocial';
 	content: attr(data-icon);

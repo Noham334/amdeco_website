@@ -22,14 +22,14 @@ $images = get_foto();
 </head>
 
 <body>
+  <header>
+    <?php include './include/header.php'; ?>
+  </header>
   <div class="page carousel">
-    <header>
-      <?php include './include/header.php'; ?>
-    </header>
 
     <?php if (count($images) > 0) : ?>
       <!-- aqui insertaremos el slider -->
-      <div id="carousel1" class="carousel slide carousel-fade mt-2" data-bs-ride="carousel">
+      <div id="carousel1" class="carousel slide carousel-fade mt-2  dblock" style="max-height: 500px;" data-bs-ride="carousel">
         <!-- Indicadores -->
         <div class="carousel-indicators">
           <?php
@@ -47,7 +47,7 @@ $images = get_foto();
         </div>
 
         <!-- Contenedor de las imagenes -->
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="max-height: 510px;">
           <?php
           $cnt = 0;
           foreach ($images as $img) :
@@ -55,8 +55,9 @@ $images = get_foto();
             <div data-bs-interval="10000" class="carousel-item <?php if ($cnt == 0) {
                                                                   echo 'active';
                                                                 } ?>">
-              <img src="<?php echo 'inicio/admin/' . $img->folder . $img->src; ?>" alt="Imagen <?php echo ($cnt + 1); ?>" class="d-block w-100">
-              <div class="carousel-caption"><?php echo "<h4>" . $img->title; ?></div>
+              <img style="max-height: 550px; margin-bottom: -60px;" src="<?php echo 'inicio/admin/' . $img->folder . $img->src; ?>" alt="Imagen <?php echo ($cnt + 1); ?>" class="d-block w-100">
+              <div class="carousel-caption"><?php echo "<h4 style='margin: auto; background: #57aacd; width:300px; border-radius: 5px; padding: 4px 0px; color: white;'>" . $img->title; ?></h4>
+              </div>
             </div>
           <?php
             $cnt++;
@@ -78,15 +79,15 @@ $images = get_foto();
       <h4 class="alert alert-warning">No hay imagenes</h4>
     <?php endif; ?>
 
+  </div>
+  <br>
+  <section class="well1">
     <div class="container-fluid">
       <ul class="row product-list">
         <?php include "noticias/Consultas.php";
         $noticias = Noticias(); ?>
       </ul>
     </div>
-  </div>
-  <br>
-  <section class="well1">
     <div class="container">
       <div class="row d-flex justify-content-between">
         <div class="col-md-4">
