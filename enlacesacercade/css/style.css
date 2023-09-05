@@ -1275,15 +1275,6 @@ a[href^='callto:']:hover {
 }
 
 /*==================      Well     ======================*/
-.well {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.well1 {
-	padding-top: 32px;
-	padding-bottom: 60px;
-}
 
 .well2 {
 	padding-top: 40px;

@@ -4,6 +4,7 @@ $images = get_foto();
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <title>Amdeco</title>
   <meta charset="utf-8">
@@ -11,7 +12,6 @@ $images = get_foto();
   <meta name="viewport" content="width=device-width" />
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="noticias/estilo.css">
@@ -19,6 +19,7 @@ $images = get_foto();
   <script src="js/common.js"></script>
   <script src="js/script.js"></script>
 </head>
+
 <body>
   <header>
     <?php include './include/header.php'; ?>
@@ -49,8 +50,8 @@ $images = get_foto();
           foreach ($images as $img) :
           ?>
             <div data-bs-interval="5000" class="carousel-item <?php if ($cnt == 0) {
-                                                                  echo 'active';
-                                                                } ?>">
+                                                                echo 'active';
+                                                              } ?>">
               <img style="max-height: 550px; margin-bottom: -60px;" src="<?php echo 'inicio/admin/' . $img->folder . $img->src; ?>" alt="Imagen <?php echo ($cnt + 1); ?>" class="d-block w-100">
               <div class="carousel-caption"><?php echo "<h4 style='margin: auto; background: #57aacd; width:300px; border-radius: 5px; padding: 4px 0px; color: white;'>" . $img->title; ?></h4>
               </div>
@@ -74,28 +75,28 @@ $images = get_foto();
       <h4 class="alert alert-warning">No hay imagenes</h4>
     <?php endif; ?>
   </div>
-  <br>
   <section class="well1">
     <div class="noticias">
       <?php include "noticias/Consultas.php";
       $noticias = Noticias(); ?>
     </div>
-    <div class="container">
+    <div>
       <div class="row d-flex justify-content-between">
-        <div class="col-md-4">
-          <h2>Nuestro Facebook »</h2>
-          <p>Visitenos en las redes sociales:</p>
-          <div class="fb-page" data-href="https://www.facebook.com/RedAMDECO/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-            <blockquote cite="https://www.facebook.com/RedAMDECO/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RedAMDECO/">AMDECO</a></blockquote>
+        <div class="col-md-5">
+          <div class="info-box-left" style="margin:auto;">
+            <h2>Nuestro Facebook »</h2>
+            <p>Visitenos en las redes sociales:</p>
+            <div class="fb-page" data-href="https://www.facebook.com/RedAMDECO/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+              <blockquote cite="https://www.facebook.com/RedAMDECO/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RedAMDECO/">AMDECO</a></blockquote>
+            </div>
           </div>
         </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
+        <div class="col-md-5">
           <div class="info-box">
             <h3 class="fa-comment">Eventos-Talleres »</h3>
             <dl>
               <img src="images/capacitacion.png" alt="">
-              <marquee direction="up" scrollamount="1" width="200" height="240" onmouseover="this.stop();" onmouseout="this.start();">
+              <marquee direction="up" scrollamount="1" width="100%" height="100" onmouseover="this.stop();" onmouseout="this.start();">
                 <div style="position:relative; top:3px; left:2px">
                   <script>
                     escribe();
@@ -137,4 +138,5 @@ $images = get_foto();
     }(document, 'script', 'facebook-jssdk'));
   </script>
 </body>
+
 </html>

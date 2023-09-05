@@ -10,6 +10,10 @@ div {
 	text-justify: inter-word;
 }
 
+.well1 {
+	background: #fff;
+}
+
 p {
 	margin-bottom: 10px;
 }
@@ -17,7 +21,6 @@ p {
 					  Main Styles
 =========================================================*/
 body {
-	background: #f5f5f5;
 	color: #56585a;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -736,11 +739,25 @@ table tr:nth-child(even) {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	margin-top: 7px;
-	padding: 30px 30px 25px;
+	padding: 30px 20px 20px;
 	color: #fff;
 	background: #57aacd;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
+
+.info-box-left {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 30px 20px 20px;
+	color: #fff;
+	background: #57aacd;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 548px;
+}
+
 .info-box dt,
 .info-box dd {
 	display: inline-block;
@@ -1507,33 +1524,6 @@ header {
 	padding-top: 0x;
 	background: #fff;
 }
-header .brand {
-	float: left;
-}
-header a[href^='callto:'],
-header .container > p {
-	clear: right;
-	float: right;
-}
-header a[href^='callto:'] {
-	margin-top: 15px;
-	position: relative;
-	font-size: 24px;
-	color: #777777;
-}
-header a[href^='callto:']:before {
-	position: absolute;
-	top: -4px;
-	left: -34px;
-	font-size: 34px;
-	color: #6bc7ed;
-}
-header a[href^='callto:']:hover {
-	color: map;
-}
-header a[href^='callto:'] + p {
-	margin-top: -1px;
-}
 @media (max-width: 979px) {
 	header {
 		text-align: center;
@@ -1598,15 +1588,6 @@ a[href^='callto:']:hover {
 }
 
 /*==================      Well     ======================*/
-.well {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.well1 {
-	padding-top: 32px;
-	padding-bottom: 60px;
-}
 
 .well2 {
 	padding-top: 40px;
@@ -1643,9 +1624,8 @@ a[href^='callto:']:hover {
 .noticias {
 	display: flex;
 	justify-content: space-evenly;
-	background: #56585a;
+	background: #fff;
 	padding: 100px 0;
-	margin-bottom: 30px;
 }
 
 .card {
@@ -1653,7 +1633,7 @@ a[href^='callto:']:hover {
 	flex-direction: column;
 	justify-content: start;
 	width: 290px;
-	background: white;
+	background: rgb(222, 223, 226);
 	padding: 0.4em;
 	border-radius: 6px;
 }
