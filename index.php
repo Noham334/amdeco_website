@@ -48,7 +48,7 @@ $images = get_foto();
           $cnt = 0;
           foreach ($images as $img) :
           ?>
-            <div data-bs-interval="10000" class="carousel-item <?php if ($cnt == 0) {
+            <div data-bs-interval="5000" class="carousel-item <?php if ($cnt == 0) {
                                                                   echo 'active';
                                                                 } ?>">
               <img style="max-height: 550px; margin-bottom: -60px;" src="<?php echo 'inicio/admin/' . $img->folder . $img->src; ?>" alt="Imagen <?php echo ($cnt + 1); ?>" class="d-block w-100">
