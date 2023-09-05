@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="phpfolletos/css/form-elements.css">
   <link rel="stylesheet" href="phpfolletos/css/style.css">
   <link rel="stylesheet" type="text/css" href="phpfolletos/css/normalize.css" />
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="phpfolletos/css/component.css" />
   <script>
     (function(e, t, n) {

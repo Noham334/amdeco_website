@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <script src="js/jquery-migrate-1.2.1.js"></script><!--[if lt IE 9]>
 <html lang="en">
 

@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="phpLibros/css/form-elements.css">
   <link rel="stylesheet" href="phpLibros/css/style.css">
   <link rel="stylesheet" type="text/css" href="phpLibros/css/normalize.css" />
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="phpLibros/css/component.css" />
   <script>
     (function(e, t, n) {

@@ -22,7 +22,7 @@ include("conexion.php");
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <script src="js/jquery.js"></script>
     
     
@@ -210,44 +210,9 @@ include("conexion.php");
                                   FOOTER
       ========================================================
       -->
-  <footer>
-          <div class="bar">
-            <div class="bar-wrap">
-             <br>
-
-                <div class="social">
-                    <a href="#" class="fb">
-                        <span data-icon="f" class="icon"></span>
-                        <span class="info">
-                            <span class="follow">Seguir en facebook</span>
-                         
-                        </span>
-                    </a>
-
-                    <a href="#" class="tw">
-                        <span data-icon="T" class="icon"></span>
-                        <span class="info">
-                            <span class="follow">Síguenos en Twitter</span>
-                           
-                        </span>
-                    </a>
-          
-                    <a href="#" class="rss">
-                        <span data-icon="Ñ" class="icon"></span>
-                        <span class="info">
-                            <span class="follow">Fax: 4457406</span>
-                            
-                        </span>
-                    </a>
-                </div>
-        
-                <div class="clear"></div>
-                <div class="copyright">Amdeco &copy; 2018.  Política de privacidad</div>
-            </div>
-        </div>
-      </footer>
-    </div>
-    <script src="js/script.js"></script>
+      <?php include './include/footer.php'; ?>
+  </div>
+  <script src="js/script.js"></script>
     
   </body>
 </html>

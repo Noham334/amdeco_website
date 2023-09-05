@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="phpLeyes/css/form-elements.css">
   <link rel="stylesheet" href="phpLeyes/css/style.css">
   <link rel="stylesheet" type="text/css" href="phpLeyes/css/normalize.css" />
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="phpLeyes/css/component.css" />
   <script>
     (function(e, t, n) {

@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="phpMunicipios/css/form-elements.css">
   <link rel="stylesheet" href="phpMunicipios/css/style.css">
   <link rel="stylesheet" type="text/css" href="phpMunicipios/css/normalize.css" />
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="phpMunicipios/css/component.css" />
   <script>
     (function(e, t, n) {

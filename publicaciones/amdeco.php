@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="phpAmdeco/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="phpAmdeco/css/form-elements.css">
   <link rel="stylesheet" href="phpAmdeco/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="phpAmdeco/css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="phpAmdeco/css/component.css" />
   <script>

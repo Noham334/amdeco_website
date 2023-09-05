@@ -4,7 +4,6 @@ $images = get_foto();
 ?>
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <title>Amdeco</title>
   <meta charset="utf-8">
@@ -20,13 +19,11 @@ $images = get_foto();
   <script src="js/common.js"></script>
   <script src="js/script.js"></script>
 </head>
-
 <body>
   <header>
     <?php include './include/header.php'; ?>
   </header>
   <div class="page carousel">
-
     <?php if (count($images) > 0) : ?>
       <!-- aqui insertaremos el slider -->
       <div id="carousel1" class="carousel slide carousel-fade mt-2  dblock" style="max-height: 500px;" data-bs-ride="carousel">
@@ -45,7 +42,6 @@ $images = get_foto();
           endforeach;
           ?>
         </div>
-
         <!-- Contenedor de las imagenes -->
         <div class="carousel-inner" style="max-height: 510px;">
           <?php
@@ -64,7 +60,6 @@ $images = get_foto();
           endforeach;
           ?>
         </div>
-
         <!-- Controls -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -78,7 +73,6 @@ $images = get_foto();
     <?php else : ?>
       <h4 class="alert alert-warning">No hay imagenes</h4>
     <?php endif; ?>
-
   </div>
   <br>
   <section class="well1">
@@ -128,7 +122,6 @@ $images = get_foto();
   // FOOTER
   include './include/footer.php';
   ?>
-
   <script src="js/script.js"></script>
   <script src="js/common.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -144,5 +137,4 @@ $images = get_foto();
     }(document, 'script', 'facebook-jssdk'));
   </script>
 </body>
-
 </html>
