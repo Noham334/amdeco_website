@@ -744,6 +744,16 @@ table tr:nth-child(even) {
 	background: #57aacd;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+	min-height: 548px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.info-box dl marquee {
+	min-height: 400px;
+}
+
+.fb-page {
+	min-width: 350px;
 }
 
 .info-box-left {
@@ -756,6 +766,7 @@ table tr:nth-child(even) {
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	height: 548px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .info-box dt,

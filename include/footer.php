@@ -69,6 +69,6 @@
         </div>
 
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-            ©Amdeco 2023 | Política de Privacidad
+            ©Amdeco | Política de Privacidad <span id="copyright-year"></span>
         </div>
     </footer>

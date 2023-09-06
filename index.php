@@ -84,35 +84,41 @@ $images = get_foto();
       <div class="row d-flex justify-content-between">
         <div class="col-md-5">
           <div class="info-box-left" style="margin:auto;">
-            <h2>Nuestro Facebook »</h2>
-            <p>Visitenos en las redes sociales:</p>
-            <div class="fb-page" data-href="https://www.facebook.com/RedAMDECO/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-              <blockquote cite="https://www.facebook.com/RedAMDECO/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RedAMDECO/">AMDECO</a></blockquote>
+            <div class="d-flex align-items-center flex-column">
+              <h2 class="fa-facebook-square" style="color:white;"> Nuestro Facebook</h2>
+              <p>Visitenos en las redes sociales</p>
+              <div class="fb-page" data-href="https://www.facebook.com/RedAMDECO/" data-height="400" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/RedAMDECO/" class="fb-xfbml-parse-ignore">
+                  <a href="https://www.facebook.com/RedAMDECO/">AMDECO</a>
+                </blockquote>
+              </div>
             </div>
           </div>
         </div>
+
         <div class="col-md-5">
-          <div class="info-box">
-            <h3 class="fa-comment">Eventos-Talleres »</h3>
-            <dl>
-              <img src="images/capacitacion.png" alt="">
-              <marquee direction="up" scrollamount="1" width="100%" height="100" onmouseover="this.stop();" onmouseout="this.start();">
-                <div style="position:relative; top:3px; left:2px">
-                  <script>
-                    escribe();
-                  </script>
-                </div>
-                <?php
-                include "eventos/db.php";
-                $images = get_imgs();
-                foreach ($images as $img) : ?>
-                  <a href="eventos/viewdocument.php?id=<?php echo $img->idEvento ?>" class="GenEnlRes"><?php echo $img->titulo; ?></a><br>
-                  Fecha del evento&nbsp;<?php $fecha = $img->fecha;
-                                        $fecha1 = date("m-d-Y", strtotime($fecha));
-                                        echo $fecha1; ?><br>
-                <?php endforeach; ?>
-              </marquee>
-            </dl>
+          <div class="info-box d-flex justify-content-centerd-flex justify-content-center">
+            <div class="d-flex align-items-center flex-column">
+              <h2 class="fa-comment">Eventos</h2>
+              <p>Principales eventos y Talleres</p>
+              <dl class="d-flex justify-content-center">
+                <marquee direction="up" scrollamount="1" width="100%" height="100" onmouseover="this.stop();" onmouseout="this.start();">
+                  <?php
+                  include "eventos/db.php";
+                  $images = get_imgs();
+                  foreach ($images as $img) : ?>
+                    <div class="d-flex flex-column align-items-center">
+                      <img src="<?php echo './eventos/' . $img->folder . '/' . $img->src; ?>" alt="">
+                      <br>
+                      <a href="eventos/viewdocument.php?id=<?php echo $img->idEvento ?>" class="GenEnlRes"><?php echo $img->titulo; ?></a><br>
+                      Fecha del evento&nbsp;<?php $fecha = $img->fecha;
+                                            $fecha1 = date("m-d-Y", strtotime($fecha));
+                                            echo $fecha1; ?><br>
+                    <?php endforeach; ?>
+                    </div>
+                </marquee>
+              </dl>
+            </div>
           </div>
         </div>
       </div>
