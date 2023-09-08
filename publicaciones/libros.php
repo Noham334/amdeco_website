@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery.js"></script>
   <!-- CSS -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
   <link rel="stylesheet" href="phpLibros/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="phpLibros/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="phpLibros/css/form-elements.css">
@@ -191,7 +191,9 @@
       ========================================================
       -->
   <?php include_once("../include/footer.php") ?>
-
+  <script src="js/common.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="./js/jquery.min.js"></script>
   <script src="js/script.js"></script>
   </body>
 
