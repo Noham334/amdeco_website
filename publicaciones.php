@@ -76,7 +76,7 @@
                 </li>
                 <li><img src="publicaciones/publicacionsSlider/images/bolivar4.jpg" alt="bolivar4"  title="bolivar4" />
                 </li>
-                <li><img src="publicaciones/publicacionsSlider/images/bolivar5.jpg" alt="bolivar5cmsdkc  csdasj  asoicjasoij co soaijcoisajocij osaicjiiiiiiiiiiiiiiiiiiiiiiis ssssssssssssssssisssssssssssssssssssssiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa sssssssssssssssssssssssssssssssssssssssssss"  title="bolivar5cmsdkc  csdasj  asoicjasoij co soaijcoisajocij osaicjiiiiiiiiiiiiiiiiiiiiiiis ssssssssssssssssisssssssssssssssssssssiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa sssssssssssssssssssssssssssssssssssssssssss" data-texteffect="Bottom bar" />
+                <li><img src="publicaciones/publicacionsSlider/images/bolivar5.jpg" alt="bolivar5"  title="bolivar5" data-texteffect="Bottom bar" />
 <a href="munciop.html" target="_blank"><button class="as-btn-blue-medium">Info...</button></a>
                 </li>
                 <li><img src="publicaciones/publicacionsSlider/images/Capinota1.jpg" alt="Capinota1"  title="Capinota1" />
@@ -163,7 +163,7 @@
                 <li><img src="publicaciones/publicacionsSlider/images/bolivar2-tn.jpg" alt="bolivar2" title="bolivar2" /></li>
                 <li><img src="publicaciones/publicacionsSlider/images/bolivar3-tn.jpg" alt="bolivar3" title="bolivar3" /></li>
                 <li><img src="publicaciones/publicacionsSlider/images/bolivar4-tn.jpg" alt="bolivar4" title="bolivar4" /></li>
-                <li><img src="publicaciones/publicacionsSlider/images/bolivar5-tn.jpg" alt="bolivar5cmsdkc  csdasj  asoicjasoij co soaijcoisajocij osaicjiiiiiiiiiiiiiiiiiiiiiiis ssssssssssssssssisssssssssssssssssssssiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa sssssssssssssssssssssssssssssssssssssssssss" title="bolivar5cmsdkc  csdasj  asoicjasoij co soaijcoisajocij osaicjiiiiiiiiiiiiiiiiiiiiiiis ssssssssssssssssisssssssssssssssssssssiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa sssssssssssssssssssssssssssssssssssssssssss" /></li>
+                <li><img src="publicaciones/publicacionsSlider/images/bolivar5-tn.jpg" alt="bolivar5" title="bolivar5" /></li>
                 <li><img src="publicaciones/publicacionsSlider/images/Capinota1-tn.jpg" alt="Capinota1" title="Capinota1" /></li>
                 <li><img src="publicaciones/publicacionsSlider/images/Capinota2-tn.jpg" alt="Capinota2" title="Capinota2" /></li>
                 <li><img src="publicaciones/publicacionsSlider/images/Capinota3-tn.jpg" alt="Capinota3" title="Capinota3" /></li>
@@ -221,6 +221,7 @@
       <footer>
         <?php include './include/footer.php';?>
       </footer>
+      
     </div>
     <script src="js/script.js"></script>
   </body>

@@ -29,7 +29,7 @@
               <li><a href="pmi.php">PMI-FCM</a></li>
               <li><a href="publicaciones\libros.php" target="_parent"><img src="publicaciones/iconos/Libros.png" alt="">Libros</a>
               <li>
-              <li><a href="images/publicaciones\folletos.php" target="_parent"><img src="publicaciones/iconos/folletos.png" alt="">Folletos</a>
+              <li><a href="publicaciones\folletos.php" target="_parent"><img src="publicaciones/iconos/folletos.png" alt="">Folletos</a>
               <li>
               <li><a href="publicaciones\leyes.php" target="_parent"><img src="publicaciones/iconos/leyes.png" alt="">Leyes</a>
               <li>
