@@ -11,7 +11,7 @@ $images = get_foto();
   <meta name="author" content="AMDECO" />
   <meta name="viewport" content="width=device-width" />
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="inicio/bootstrap/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="noticias/estilo.css">
@@ -81,7 +81,7 @@ $images = get_foto();
       $noticias = Noticias(); ?>
     </div>
     <div>
-      <div class="row d-flex justify-content-between">
+      <div class="container d-flex justify-content-between">
         <div class="col-md-5">
           <div class="info-box-left" style="margin:auto;">
             <div class="d-flex align-items-center flex-column">
@@ -131,8 +131,8 @@ $images = get_foto();
   ?>
   <script src="js/script.js"></script>
   <script src="js/common.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script src="./js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script>
     (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
