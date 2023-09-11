@@ -24,7 +24,7 @@
             </ul>
           </li>
           <li><a href="municipios.php">Municipios</a></li>
-          <li><a href="publicaciones.php">Publicaciones</a>
+          <li><a href="../publicaciones.php">Publicaciones</a>
             <ul>
               <li><a href="pmi.php">PMI-FCM</a></li>
               <li><a href="libros.php" target="_parent"><img src="publicaciones/iconos/Libros.png" alt="">Libros</a>
@@ -44,13 +44,13 @@
           <li><a href="../noticias.php">Noticias</a></li>
           <li><a href="#">Registros</a>
             <ul class="ul-registro">
-              <li><a href="registros.php" target="_parent"><img src="publicaciones/iconos/buscar.png" alt="" width="30px">Buscar</a>
+              <li><a href="../registros.php" target="_parent"><img src="publicaciones/iconos/buscar.png" alt="" width="30px">Buscar</a>
               <li>
-              <li><a href="registros_lista.php" target="_parent"><img src="publicaciones/iconos/lista.png" alt="" width="30px">Lista</a>
+              <li><a href="../registros_lista.php" target="_parent"><img src="publicaciones/iconos/lista.png" alt="" width="30px">Lista</a>
               <li>
             </ul>
           </li>
-          <li><a href="contactos.php">Contacto</a>
+          <li><a href="../contactos.php">Contacto</a>
         </ul>
       </nav>
     </div>

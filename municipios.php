@@ -119,7 +119,7 @@
 
             </div>
 
-            <div class="grid_4">
+            <div class="grid_3">
 
               <div class="fleft"><strong>Metropolitana:</strong></div>
               <p>
@@ -409,7 +409,6 @@ Entre Ríos se encuentra en una de las regiones con mayor potencialidad en la pr
   include './include/footer.php';
   ?>
   </div>
-  <script src="js/script.js"></script>
   <script src="js/common.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script src="./js/jquery.min.js"></script>

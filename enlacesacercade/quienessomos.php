@@ -36,22 +36,22 @@
         <section>
           <div class="container hr well1 ins2">
             <div class="row">
-              <div class="grid_6">
-              <img src="images\casa_amdeco.jpeg" width="520" height="500">
+              <div class="grid_5">
+              <img src="images\casa_amdeco.jpeg" width="450" height="500">
               </div>
               <div class="grid_6">
                 <div class="row">
                       <h3><strong>DONDE TRABAJAMOS</strong></h3>
-                      <h5>¿Qué es Amdeco?</h5>
+                      <br>
+                     <h5>¿Qué es Amdeco?</h5>
                       <dd>Asociación de Gobiernos Autónomos Municipales de Cochabamba</dd>
                       <h5>Aniversario</h5>
                       <dd>7 de noviembre</dd>
                       <h5>¿Dónde nos encontramos?</h5>
                       <dd>Calle J. de los Ríos Nº 317 entre Circunvalación y E. Perez</dd>
                     </dl>
-                     
-                  
-                      <dt><h4><strong>AMDECO</strong></h4></dt>
+                      <br>
+                      <h4><strong>AMDECO</strong></h4>
                       <dd>
                       La Asociación de Gobiernos Autónomos Municipales de Cochabamba, con su sigla “AMDECO” es una entidad de carácter departamental, persona colectiva de derecho privado, sin fines de lucro, establecida al amparo de las previsiones legales contempladas por los Artículos 21 numeral 4 y 302 numerales 2, 34, 35 y 42 de la Constitución Política del Estado Plurinacional vigente, Artículo 12 numeral 15 de la Ley de Municipalidades y los Artículos 58 y siguientes del Código Civil. Es de esencia democrática, participativa y municipalista, integrada por los Municipios de Cochabamba.(Cfr. Estatuto Orgánico de AMDECO: Art. 1).
                         
@@ -153,7 +153,8 @@
   <script src="js/common.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script src="./js/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     </div>
-    <script src="js/script.js"></script>
+   
   </body>
 </html>

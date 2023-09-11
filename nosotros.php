@@ -39,7 +39,7 @@
         <section>
           <div class="container hr well1 ins2">
             <div class="row">
-              <div class="grid_6">
+              <div class="grid_5">
               <img src="images\casa_amdeco.jpeg" width="520" height="500">
                 <!--div class="video">
                   <iframe src="#" allowfullscreen></iframe>
@@ -90,12 +90,12 @@
                 </div>
                 <p>La Asociación de Municipios de Cochabamba (AMDECO), conforme establece el Artículo 1 de su Estatuto Orgánico vigente, tiene los siguientes objetivos institucionales:</p>
               </div>
-              <div class="grid_6">
+              <div class="grid_5">
                 <h3>Nuestro Equipo</h3>
                 <div class="row">
                   <div class="grid_2 wow fadeInRight"><img src="images/cochabamba3.jpg" alt=""><img src="images/cochabamba3.jpg" alt=""></div>
                   <div data-wow-delay="0.2s" class="grid_2 wow fadeInRight"><img src="images/cochabamba5.jpg" alt=""><img src="cochabamba4.jpg" alt=""></div>
-                  <div data-wow-delay="0.4s" class="grid_2 wow fadeInRight"><img src="images/cochabamba5.jpg" alt=""><img src="cochabamba4.jpg" alt=""></div>
+                  
                 </div>
                 <br>
                 <p>

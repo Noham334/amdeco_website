@@ -16,7 +16,7 @@
             </a></li>
           <li><a href="../nosotros.php">NOSOTROS</a>
             <ul class="ul-nosotros" style="display: none;">
-              <li><a href="../quienessomos.php">Acerca de</a></li>
+              <li><a href="../nosotros.php">Acerca de</a></li>
               <li><a href="misionyvision.php">Misión</a></li>
               <li><a href="organigrama.php">Organigrama</a></li>
               <li><a href="consejo.php">Dirección</a></li>
@@ -27,30 +27,30 @@
           <li><a href="../publicaciones.php">Publicaciones</a>
             <ul>
               <li><a href="../pmi.php">PMI-FCM</a></li>
-              <li><a href="../publicaciones\libros.php" target="_parent"><img src="publicaciones/iconos/Libros.png" alt="">Libros</a>
+              <li><a href="../publicaciones\libros.php" target="_parent"><img src="iconos/Libros.png" alt="">Libros</a>
               <li>
-              <li><a href="../publicaciones\folletos.php" target="_parent"><img src="publicaciones/iconos/folletos.png" alt="">Folletos</a>
+              <li><a href="../publicaciones\folletos.php" target="_parent"><img src="iconos/folletos.png" alt="">Folletos</a>
               <li>
-              <li><a href="../publicaciones\leyes.php" target="_parent"><img src="publicaciones/iconos/leyes.png" alt="">Leyes</a>
+              <li><a href="../publicaciones\leyes.php" target="_parent"><img src="iconos/leyes.png" alt="">Leyes</a>
               <li>
-              <li><a href="../publicaciones\municipios.php" target="_parent"><img src="publicaciones/iconos/municipios.png" alt="">Municipios</a>
+              <li><a href="../publicaciones\municipios.php" target="_parent"><img src="iconos/municipios.png" alt="">Municipios</a>
               <li>
-              <li><a href="../publicaciones\amdeco.php" target="_parent"><img src="publicaciones/iconos/amdeco.png" alt="">Amdeco</a>
+              <li><a href="../publicaciones\amdeco.php" target="_parent"><img src="iconos/amdeco.png" alt="">Amdeco</a>
               <li>
-              <li><a href="../publicaciones\otros.php" target="_parent"><img src="publicaciones/iconos/varios.png" alt="">Otros</a>
+              <li><a href="../publicaciones\otros.php" target="_parent"><img src="iconos/varios.png" alt="">Otros</a>
               <li>
             </ul>
           </li>
-          <li><a href="noticias.php">Noticias</a></li>
+          <li><a href="../noticias.php">Noticias</a></li>
           <li><a href="#">Registros</a>
             <ul class="ul-registro">
-              <li><a href="registros.php" target="_parent"><img src="publicaciones/iconos/buscar.png" alt="" width="30px">Buscar</a>
+              <li><a href="../registros.php" target="_parent"><img src="iconos/buscar.png" alt="" width="30px">Buscar</a>
               <li>
-              <li><a href="registros_lista.php" target="_parent"><img src="publicaciones/iconos/lista.png" alt="" width="30px">Lista</a>
+              <li><a href="../registros_lista.php" target="_parent"><img src="iconos/lista.png" alt="" width="30px">Lista</a>
               <li>
             </ul>
           </li>
-          <li><a href="contactos.php">Contacto</a>
+          <li><a href="../contactos.php">Contacto</a>
         </ul>
       </nav>
     </div>
