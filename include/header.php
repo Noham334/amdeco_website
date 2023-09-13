@@ -16,41 +16,41 @@
             </a></li>
           <li><a href="#">NOSOTROS</a>
             <ul class="ul-nosotros" style="display: none;">
-              <li><a href="nosotros.php">Acerca de</a></li>
-              <li><a href="enlacesacercade\misionyvision.php">Misión</a></li>
-              <li><a href="enlacesacercade\organigrama.php">Organigrama</a></li>
-              <li><a href="enlacesacercade\consejo.php">Dirección</a></li>
-              <li><a href="enlacesacercade\autoridades.php">Autoridades</a></li>
+              <li><a href="http://localhost/amdeco_website/nosotros.php">Acerca de</a></li>
+              <li><a href="http://localhost/amdeco_website/enlacesacercade\misionyvision.php">Misión</a></li>
+              <li><a href="http://localhost/amdeco_website/enlacesacercade\organigrama.php">Organigrama</a></li>
+              <li><a href="http://localhost/amdeco_website/enlacesacercade\consejo.php">Dirección</a></li>
+              <li><a href="http://localhost/amdeco_website/enlacesacercade\autoridades.php">Autoridades</a></li>
             </ul>
           </li>
-          <li><a href="municipios.php">Municipios</a></li>
-          <li><a href="publicaciones.php">Publicaciones</a>
+          <li><a href="http://localhost/amdeco_website/municipios.php">Municipios</a></li>
+          <li><a href="http://localhost/amdeco_website/publicaciones.php">Publicaciones</a>
             <ul>
-              <li><a href="pmi.php">PMI-FCM</a></li>
-              <li><a href="publicaciones\libros.php" target="_parent"><img src="publicaciones/iconos/Libros.png" alt="">Libros</a>
+              <li><a href="http://localhost/amdeco_website/pmi.php">PMI-FCM</a></li>
+              <li><a href="http://localhost/amdeco_website/publicaciones\libros.php" target="_parent"><img src="http://localhost/amdeco_website/publicaciones/iconos/Libros.png" alt="">Libros</a>
               <li>
-              <li><a href="publicaciones\folletos.php" target="_parent"><img src="publicaciones/iconos/folletos.png" alt="">Folletos</a>
+              <li><a href="http://localhost/amdeco_website/publicaciones\folletos.php" target="_parent"><img src="http://localhost/amdeco_website/publicaciones/iconos/folletos.png" alt="">Folletos</a>
               <li>
-              <li><a href="publicaciones\leyes.php" target="_parent"><img src="publicaciones/iconos/leyes.png" alt="">Leyes</a>
+              <li><a href="http://localhost/amdeco_website/publicaciones\leyes.php" target="_parent"><img src="http://localhost/amdeco_website/publicaciones/iconos/leyes.png" alt="">Leyes</a>
               <li>
-              <li><a href="publicaciones\municipios.php" target="_parent"><img src="publicaciones/iconos/municipios.png" alt="">Municipios</a>
+              <li><a href="http://localhost/amdeco_website/publicaciones\municipios.php" target="_parent"><img src="http://localhost/amdeco_website/publicaciones/iconos/municipios.png" alt="">Municipios</a>
               <li>
-              <li><a href="publicaciones\amdeco.php" target="_parent"><img src="publicaciones/iconos/amdeco.png" alt="">Amdeco</a>
+              <li><a href="http://localhost/amdeco_website/publicaciones\amdeco.php" target="_parent"><img src="http://localhost/amdeco_website/publicaciones/iconos/amdeco.png" alt="">Amdeco</a>
               <li>
-              <li><a href="publicaciones\otros.php" target="_parent"><img src="publicaciones/iconos/varios.png" alt="">Otros</a>
+              <li><a href="http://localhost/amdeco_website/publicaciones\otros.php" target="_parent"><img src="http://localhost/amdeco_website/publicaciones/iconos/varios.png" alt="">Otros</a>
               <li>
             </ul>
           </li>
-          <li><a href="noticias.php">Noticias</a></li>
+          <li><a href="http://localhost/amdeco_website/noticias.php">Noticias</a></li>
           <li><a href="#">Registros</a>
             <ul class="ul-registro">
-              <li><a href="registros.php" target="_parent"><img src="publicaciones/iconos/buscar.png" alt="" width="30px">Buscar</a>
+              <li><a href="http://localhost/amdeco_website/registros.php" target="_parent"><img src="http://localhost/amdeco_website/publicaciones/iconos/buscar.png" alt="" width="30px">Buscar</a>
               <li>
-              <li><a href="registros_lista.php" target="_parent"><img src="publicaciones/iconos/lista.png" alt="" width="30px">Lista</a>
+              <li><a href="http://localhost/amdeco_website/registros_lista.php" target="_parent"><img src="http://localhost/amdeco_website/publicaciones/iconos/lista.png" alt="" width="30px">Lista</a>
               <li>
             </ul>
           </li>
-          <li><a href="contactos.php">Contacto</a>
+          <li><a href="http://localhost/amdeco_website/contactos.php">Contacto</a>
         </ul>
       </nav>
     </div>

@@ -4,27 +4,27 @@
                 <div class="row text-center d-flex justify-content-center pt-5">
                     <div class="col-md-2 d-flex justify-content-center">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="index.php" class="text-white">Inicio</a>
+                            <a href="http://localhost/amdeco_website/index.php" class="text-white">Inicio</a>
                         </h6>
                     </div>
                     <div class="col-md-2 d-flex justify-content-center">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="noticias.php" class="text-white">Noticias</a>
+                            <a href="http://localhost/amdeco_website/noticias.php" class="text-white">Noticias</a>
                         </h6>
                     </div>
                     <div class="col-md-2 d-flex justify-content-center">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="nosotros.php" class="text-white">Acerca de</a>
+                            <a href="http://localhost/amdeco_website/nosotros.php" class="text-white">Acerca de</a>
                         </h6>
                     </div>
                     <div class="col-md-2 d-flex justify-content-center">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="municipios.php" class="text-white">Municipios</a>
+                            <a href="http://localhost/amdeco_website/municipios.php" class="text-white">Municipios</a>
                         </h6>
                     </div>
                     <div class="col-md-2 d-flex justify-content-center">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="contactos.php" class="text-white">Contacto</a>
+                            <a href="http://localhost/amdeco_website/contactos.php" class="text-white">Contacto</a>
                         </h6>
                     </div>
                 </div>
