@@ -20,7 +20,7 @@
     <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
 	<link rel="stylesheet" type="text/css" href="allMunicipios/engine1/style.css" />
 	<script type="text/javascript" src="allMunicipios/engine1/jquery.js"></script>
-	
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	  <meta name="viewport" content="width=device-width">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/grid.css">
@@ -39,43 +39,7 @@
       
       -->
  <header>
-        <div class="container">
-          <div class="brand">
-            <h1 class="brand_name"><img src="images/logoamdeco.jpg"><a href="./"></a></h1>
-            <p class="brand_slogan"></p>
-            
-            </div><a href="" class=""></a>
-          
-          </div>
-        <div id="stuck_container" class="stuck_container">
-          <div class="container">
-            <nav class="nav">
-                <ul data-type="navbar" class="sf-menu">
-                    <li><a href="..\index.php">Inicio</a>
-                    
-                    </li>
-                    <li><a href="..\acercade.php">Acerca De</a>
-                      <ul>
-                          <li><a href="..\enlacesacercade\quienessomos.php" target="_parent">Quienes somos</a></li>
-                          <li><a href="..\enlacesacercade\misionyvision.php" target="_parent">Misión y Visión</a></li>
-                          <li><a href="#">Organigrama</a></li>
-                          <li><a href="..\enlacesacercade\consejo.php" target="_parent">Consejo directivo</a></li>
-                          <li><a href="..\enlacesacercade\autoridades.php" target="_parent">Autoridades</a></li>
-                        </ul>
-                    </li>
-                    <li class="active"><a href="..\municipios.php">Municipios</a>
-                    </li>
-                    <li><a href="..\publicaciones.php">Publicaciones</a>
-                    </li>
-                    <li><a href="..\noticias.php">Noticias</a>
-                    
-                    </li>
-                    <li><a href="..\contactos.php">Contactos</a>
-                    </li>
-                  </ul>
-            </nav>
-          </div>
-        </div>
+ <?php include './include/header.php'; ?>
       </header>
      
       <!--
@@ -83,7 +47,6 @@
                                   CONTENT
       ========================================================
 	-->
-
 
   <body>
     <div class="container-fluid">
@@ -118,9 +81,6 @@
           
            </div>
 
-
-
-    
     <div class="col-sm-6" >
       <br>
       <div class="scrollbar">
@@ -167,28 +127,13 @@ Poza Azul es otro lugar muy atractivo para los turistas, ubicado  en el Sindicat
 
 </p>
   
-
-  
     </div>
     </div>
      
-
-  
-
-
      </div>
     
   </div>
 </div>
-
-
-        
-        
-
-      
-
-
-  
 
        </div>
         </section>
@@ -198,41 +143,10 @@ Poza Azul es otro lugar muy atractivo para los turistas, ubicado  en el Sindicat
       ========================================================
       -->
       <footer>
-         <div class="bar">
-            <div class="bar-wrap">
-             <br>
-
-                <div class="social">
-                    <a href="#" class="fb">
-                        <span data-icon="f" class="icon"></span>
-                        <span class="info">
-                            <span class="follow">Seguir en facebook</span>
-                         
-                        </span>
-                    </a>
-
-                    <a href="#" class="tw">
-                        <span data-icon="T" class="icon"></span>
-                        <span class="info">
-                            <span class="follow">Síguenos en Twitter</span>
-                           
-                        </span>
-                    </a>
-					
-                    <a href="#" class="rss">
-                        <span data-icon="Ñ" class="icon"></span>
-                        <span class="info">
-                            <span class="follow">Fax: 4457406</span>
-                            
-                        </span>
-                    </a>
-                </div>
-				
-                <div class="clear"></div>
-                <div class="copyright">Amdeco &copy; 2018.  Política de privacidad</div>
-            </div>
-        </div>
-       
+      <?php
+    // FOOTER
+    include './include/footer.php';
+    ?>
       </footer>
     </div>
     <script src="js/script.js"></script>

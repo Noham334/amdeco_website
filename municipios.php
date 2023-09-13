@@ -10,6 +10,7 @@
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
   <link rel="stylesheet" href="enlacemunicipios/searchShield/css/estilos.css">
   <link rel="stylesheet" href="enlacemunicipios/mapa/resources/ol.css">
   <link rel="stylesheet" href="enlacemunicipios/mapa/resources/ol3-layerswitcher.css">

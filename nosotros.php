@@ -69,20 +69,19 @@
             <div class="grid_6">
               <p>El sistema de representación de la AMDECO parte de la consideración de que la población de cada una de las unidades territoriales municipales del Departamento de Cochabamba está políticamente representada por sus respectivos Gobiernos Autónomos Municipales, máxima forma de representación del actual sistema democrático establecido por la Constitución Política del Estado. La AMDECO representa a cada uno de esos Gobiernos Autónomos Municipales, por lo que se constituye a su vez en la representación política de las autonomías municipales del Departamento. AMDECO desarrolla su naturaleza institucional, por un lado a través de la representación política departamental, nacional e internacional de los Gobiernos Autónomos Municipales de Cochabamba y por otro, mediante el fortalecimiento de las capacidades institucionales de gestión de los mismos. La actual estructura de representación de la AMDECO es la siguiente:
               </p>
-              <ul><hr>
-                          <li><strong>1.</strong> Congreso o Asamblea Departamental de Gobiernos Autónomos Municipales;</li>
-                          <li><strong>2.</strong> Consejo Directivo;</li>
-                          <li><strong>3.</strong> Estructura Técnica Ejecutiva.</li>
-                        </ul>
+              <ul>
                 <hr>
-                <h3><strong>Objetivos Institucionales de AMDECO</strong></h3>
-                <div class="row">
-                  <div data-wow-delay="0.2s" class="grid_3 wow fadeInLeft"><img src="images/cochabamba3.jpg" alt=""></div>
-                  <div class="grid_3 wow fadeInLeft"><img src="images/cochabamba3.jpg" alt=""></div>
-                </div>
-                <p>La Asociación de Municipios de Cochabamba (AMDECO), conforme establece el Artículo 1 de su Estatuto Orgánico vigente, tiene los siguientes objetivos institucionales:</p>
+                <li><strong>1.</strong> Congreso o Asamblea Departamental de Gobiernos Autónomos Municipales;</li>
+                <li><strong>2.</strong> Consejo Directivo;</li>
+                <li><strong>3.</strong> Estructura Técnica Ejecutiva.</li>
+              </ul>
+              <hr>
+              <h3><strong>Objetivos Institucionales de AMDECO</strong></h3>
+              <div class="row">
+                <div data-wow-delay="0.2s" class="grid_3 wow fadeInLeft"><img src="images/cochabamba3.jpg" alt=""></div>
+                <div class="grid_3 wow fadeInLeft"><img src="images/cochabamba3.jpg" alt=""></div>
               </div>
-              <div class="grid_5">
+              <div class="grid_6">
                 <h3>Nuestro Equipo</h3>
                 <div class="row">
                   <div class="grid_2 wow fadeInRight"><img src="images/cochabamba3.jpg" alt=""><img src="images/cochabamba3.jpg" alt=""></div>
