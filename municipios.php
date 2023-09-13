@@ -92,7 +92,7 @@
                 </div>
               </div>
             </div>
-            <div class="grid_4">
+            <div class="grid_3">
               <br>
               <div class="fleft"><strong>Metropolitana:</strong></div>
               <p>
