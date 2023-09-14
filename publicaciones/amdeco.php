@@ -24,24 +24,9 @@
 </head>
 
 <div class="page">
-  <!--
-      ========================================================
-      							HEADER
-      ========================================================
-      
-      
-      -->
   <header>
     <?php include '../include/header.php'; ?>
   </header>
-  <!--
-      ========================================================
-                                  CONTENT
-      ========================================================
-      -->
-
-
-
   <!-- capturar datos de registro-->
   <?php
   include_once 'phpAmdeco/config.inc.php';
@@ -127,20 +112,16 @@
             <!--	<td> ?php echo '<img src="archivos/'.$datos["nombre_archivo"].'" width="30" heigth="30">'?></td>-->
 
 
+            <!-- CARGAR REGISTRO A NUESTRA TABLA-->
             <td>
               <center><a class="btn btn-success" href="phpAmdeco/archivos/<?php echo $datos["nombre_archivo"]; ?>" download> <i class="fa fa-download" aria-hidden="true"></i></a></center>
             </td>
-
-
-
-
           </tr>
         <?php } ?>
       </table>
     </div>
   </div>
-  <!-- CARGAR REGISTRO A NUESTRA TABLA-->
-
+  <?php include '../include/footer.php'; ?>
   <!-- Javascript function for Mensaje Eliminar-->
   <script language="javascript">
     function deleteme(id) {
@@ -179,14 +160,6 @@
   <!-- END FUNCION PARA EL BUSCADOR-->
 
   <script src="phpAmdeco/js/custom-file-input.js"></script>
-
-  <!--
-      ========================================================
-                                  FOOTER
-      ========================================================
-      -->
-  <?php include '../include/footer.php'; ?>
-
   <script src="../js/jquery.min.js"></script>
   <script src="../js/common.js"></script>
   <script src="../js/script.js"></script>
