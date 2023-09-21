@@ -75,7 +75,6 @@
             <br>
             A 35 km. Del centro poblado se encuentra la zona arqueológica “El Entierro” donde antiguamente los incas sepultaban a sus muertos y es considerado un sitio sagrado.
             Otro de los atractivos más resaltantes del municipio es el Complejo Turístico “Toro Warkhu” ubicado a 8 km. del centro, la misma cuenta con cabañas para una capacidad de 54 personas y espacios de recreación y camping. Es un lugar extraordinario ya que se encuentra a escasos metros de la Cascada de Toro Warkhu.
-
           </p>
         </div>
       </div>
