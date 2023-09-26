@@ -1,4 +1,4 @@
-<!DOCTYPE php>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -6,13 +6,8 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 
-  <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  <!-- Popper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
   <meta name="format-detection" content="telephone=no">
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
@@ -27,11 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   <script src="js/jquery.js"></script>
-  <script src="js/jquery-migrate-1.2.1.js"></script><!--[if lt IE 9]>
-    <php class="lt-ie9">
-      <div style="clear: both; text-align:center; position: relative;"><a href="http://windows.microsoft.com/en-US/internet-explorer/.."><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    </php>
-    <script src="js/php5shiv.js"></script><![endif]-->
+  <script src="js/jquery-migrate-1.2.1.js"></script>
   <script src="js/device.min.js"></script>
 </head>
 
@@ -52,7 +43,6 @@
               <!--img src="images/mapaamdeco.jpg" alt=""-->
             </div>
             <div class="col-sm-6">
-
               <fieldset>
                 <legend align="rigth">
                   <font color="red">
@@ -71,25 +61,19 @@
                         <input id="form_name" type="text" name="name" style="width:400px;height:40px; font-size: 10pt;" class="form-control" placeholder="Por favor, escriba su nombre*" required="required" data-error="name is required.">
                         <div class="help-block with-errors"></div>
                       </div>
-
-
                       <div class="form-group">
                         <label for="form_email">Correo</label>
                         <input id="form_email" type="email" name="email" style="width:400px;height:40px; font-size: 10pt;" class="form-control" placeholder="Por favor, escriba su  email *" required="required" data-error="Valid email is required.">
                         <div class="help-block with-errors"></div>
                       </div>
-
-
                       <div class="form-group">
                         <label for="form_phone">Telefono</label>
                         <input id="form_phone" type="tel" name="phone" style="width:400px;height:40px; font-size: 10pt;" class="form-control" placeholder="Por favor, escriba su numero telefonico o celular *">
                         <div class="help-block with-errors"></div>
                       </div>
-
                     </div>
                 </div>
                 <div class="clearfix"></div>
-
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-group">
@@ -102,29 +86,19 @@
                     <input type="submit" class="btn btn-primary btn-send" value="Enviar">
                   </div>
                 </div>
-
                 </form>
+              </fieldset>
             </div>
           </div>
         </div>
-  </div>
-
-  </fieldset>
-
-
-  </section>
-  </main>
-  <!--
-      ========================================================
-                                  FOOTER
-      ========================================================
-      -->
-  <footer>
-    <?php include './include/footer.php'; ?>
-  </footer>
-  <script src="js/common.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-  <script src="./js/jquery.min.js"></script>
+      </section>
+    </main>
+    <footer>
+      <?php include './include/footer.php'; ?>
+    </footer>
+    <script src="js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="./js/jquery.min.js"></script>
   </div>
   <script src="js/script.js"></script>
 </body>

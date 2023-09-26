@@ -13,6 +13,76 @@ $images = get_foto();
   <meta name="viewport" content="width=device-width" />
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* MOBILE DEVICES */
+    @media screen and (max-width: 482px) {
+
+      body {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        min-width: 100%;
+      }
+
+      div {
+        text-align: center;
+      }
+
+      .me-4 {
+        margin-left: 0;
+      }
+
+      header #topNav {
+        display: none;
+
+        margin: 0;
+      }
+
+      header#mobNav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      div.page {
+        min-height: 200px;
+      }
+
+      div.noticias {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      div.noticias .card {
+        margin-bottom: 2rem;
+      }
+
+      div.noticias-eventos>div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      div.noticias-eventos>div>div {
+        margin-bottom: 2rem;
+      }
+
+      div.noticias-eventos>div>div>div {
+        border-radius: 2rem;
+      }
+
+      footer {
+        display: block;
+        min-height: 1000px;
+      }
+
+    }
+  </style>
 </head>
 
 <body>
@@ -73,9 +143,9 @@ $images = get_foto();
   <section class="well1">
     <div class="noticias">
       <?php include "noticias/Consultas.php";
-      $noticias = Noticias(); ?>
+      Noticias(); ?>
     </div>
-    <div>
+    <div class="noticias-eventos">
       <div class="container d-flex justify-content-between">
         <div class="col-md-5">
           <div class="info-box-left" style="margin:auto;">
