@@ -1547,11 +1547,6 @@ header {
     margin-top: 20px;
   }
 }
-@media (max-width: 767px) {
-  header {
-    text-align: center;
-  }
-}
 
 /*========================================================
 					 CONTENT  Section

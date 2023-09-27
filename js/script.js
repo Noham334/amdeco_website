@@ -120,7 +120,7 @@ include('js/jquery.easing.1.3.js');
 (function ($) {
 	var currentYear = new Date().getFullYear();
 	$(document).ready(function () {
-		$('#copyright-year').text(new Date().getFullYear());
+		$('#copyright-year').text(currentYear);
 	});
 })(jQuery);
 
