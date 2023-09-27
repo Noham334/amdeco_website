@@ -78,8 +78,12 @@ $images = get_foto();
 
       footer {
         display: block;
-        min-height: 1000px;
       }
+
+      footer>.container>section {
+        margin-top: 0;
+      }
+
 
     }
   </style>
