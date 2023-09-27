@@ -15,7 +15,7 @@ $images = get_foto();
   <link rel="stylesheet" href="css/style.css">
   <style>
     /* MOBILE DEVICES */
-    @media screen and (max-width: 482px) {
+    @media screen and (max-width: 800px) {
 
       body {
         display: flex;
@@ -66,6 +66,7 @@ $images = get_foto();
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
       }
 
       div.noticias-eventos>div>div {

@@ -1,5 +1,5 @@
 <div class="grid">
-  <div class="d-flex justify-content-around align-items-center">
+  <div class="header-nav d-flex justify-content-around align-items-center">
     <!--Logo-->
     <div class="d-flex align-items-center">
       <a href="index.php">
