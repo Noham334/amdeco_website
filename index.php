@@ -38,6 +38,10 @@ $images = get_foto();
         margin: 0;
       }
 
+      .logo {
+        margin-left: 3rem;
+      }
+
       header#mobNav {
         display: flex;
         flex-direction: column;
@@ -84,7 +88,6 @@ $images = get_foto();
       footer>.container>section {
         margin-top: 0;
       }
-
 
     }
   </style>
