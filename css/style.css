@@ -1936,3 +1936,72 @@ footer .bar-wrap {
 .showmobile {
   display: none;
 }
+
+/* MOBILE DEVICES */
+@media screen and (max-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    min-width: 100%;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  .me-4 {
+    margin-left: 0;
+  }
+
+  #mobile-hide > * {
+    display: none;
+  }
+
+  .logo-container {
+    display: block;
+    width: 100vw;
+    margin-right: 1rem;
+  }
+
+  div.page {
+    min-height: 200px;
+  }
+
+  div.noticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  div.noticias .card {
+    margin-bottom: 2rem;
+  }
+
+  div.noticias-eventos > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  div.noticias-eventos > div > div {
+    margin-bottom: 2rem;
+  }
+
+  div.noticias-eventos > div > div > div {
+    border-radius: 2rem;
+  }
+
+  footer {
+    display: block;
+  }
+
+  footer > .container > section {
+    margin-top: 0;
+  }
+}

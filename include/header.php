@@ -1,7 +1,7 @@
 <div class="grid">
   <div class="header-nav d-flex justify-content-around align-items-center">
     <!--Logo-->
-    <div class="d-flex align-items-center">
+    <div class="logo-container">
       <a href="index.php">
         <img src="images/logo.png" class="logo" alt="logo de AMDECO">
       </a>

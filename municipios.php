@@ -56,8 +56,7 @@
       background: rgba(255, 255, 255, 0.5) !important;
       color: black !important;
     }
-  </style>
-  <style>
+
     #map {
       width: 728px;
       height: 522px;
