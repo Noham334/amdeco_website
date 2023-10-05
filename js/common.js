@@ -1,18 +1,51 @@
-//FUNCION PARA DROPDOWN NAVBAR MENU
 document.addEventListener('DOMContentLoaded', function () {
-	var nav = document.getElementById('topNav');
-	var submenuItems = nav.querySelectorAll('li > ul');
+	const navItems = document.querySelectorAll('.nav-list > li');
 
-	for (var i = 0; i < submenuItems.length; i++) {
-		var submenu = submenuItems[i];
-		var parentItem = submenu.parentNode;
+	navItems.forEach(function (navItem) {
+		 navItem.addEventListener('mouseenter', function () {
+			  const submenu = this.querySelector('.ul-list');
+			  if (submenu) {
+					submenu.style.display = 'block';
+			  }
+		 });
 
-		parentItem.addEventListener('mouseenter', function () {
-			this.querySelector('ul').style.display = 'block';
-		});
-
-		parentItem.addEventListener('mouseleave', function () {
-			this.querySelector('ul').style.display = 'none';
-		});
-	}
+		 navItem.addEventListener('mouseleave', function () {
+			  const submenu = this.querySelector('.ul-list');
+			  if (submenu) {
+					submenu.style.display = 'none';
+			  }
+		 });
+	});
 });
+
+
+
+class MobileNavBar {
+	constructor(mobileMenu, navList, navLinks){
+		this.mobileMenu = document.querySelector(mobileMenu);
+		this.navList = document.querySelector(navList);
+		this.navLinks = document.querySelector(navLinks);
+		this.activeClass = 'active';
+
+		this.handleClick = this.handleClick.bind(this);
+	}
+	
+	handleClick() {
+		console.log(this);
+		this.navList.classList.toggle(this.activeClass);
+	}
+	
+	addClickEvent() {
+		this.mobileMenu.addEventListener('click', () => this.handleClick());
+	}
+
+	init() {
+		if (this.mobileMenu) {
+			this.addClickEvent();
+		}
+		return this;
+	}
+}
+
+const mobileNavBar = new MobileNavBar('.mobile-menu', '.nav-list', '.nav-list li a').init();
+
