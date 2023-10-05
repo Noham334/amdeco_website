@@ -13,7 +13,6 @@ $images = get_foto();
   <meta name="viewport" content="width=device-width" />
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -23,7 +22,7 @@ $images = get_foto();
   <div class="page carousel">
     <?php if (count($images) > 0) : ?>
       <!-- aqui insertaremos el slider -->
-      <div id="carousel1" class="carousel slide carousel-fade mt-2  dblock" style="max-height: 500px;" data-bs-ride="carousel">
+      <div id="carousel1" class="carousel slide carousel-fade dblock" style="max-height: 500px;" data-bs-ride="carousel">
         <!-- Indicadores -->
         <div class="carousel-indicators">
           <?php
@@ -124,9 +123,9 @@ $images = get_foto();
   // FOOTER
   include './include/footer.php';
   ?>
+  <script src="js/common.js"></script>
   <script src="./js/jquery.min.js"></script>
   <script src="js/script.js"></script>
-  <script src="js/common.js"></script>
   <script src="./js/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script>

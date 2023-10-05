@@ -117,16 +117,12 @@
             </div>
           </div>
         </div>
-
       </section>
-
       <section>
 
         <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;padding-left:0px; padding-right:244px;margin:0px auto 0px;">
           <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-
-
               <li><a href="enlacemunicipios/aiquile.php" target="_blank"><img src="enlacemunicipios/sliderMapas//map/aiquile.png" alt="Aiquile" title="Aiquile" data-description="Aiquile es la Primera Sección Municipal de la Provincia Campero. Es conocida como la “Capital del Charango”." /> /></a>
               </li>
               <li><a href="enlacemunicipios/alalay.php" target="_blank"><img src="enlacemunicipios/sliderMapas/map/alalay.png" alt="Alalay" title="Alalay" data-description="Es la Tercera Sección Municipal de la Provincia Mizque, está ubicada en la Región del Cono Sur del Departamento. El nombre proviene de la expresión quechua “Alalay” que significa frío, precisamente por las características climatológicas del municipio." /></a>
@@ -150,16 +146,14 @@
               <li><a href="enlacemunicipios/cliza.php" target="_blank"><img src="enlacemunicipios/sliderMapas/map/cliza.png" alt="Cliza" title="Cliza" data-description="Es la Primera Sección Municipal de la Provincia German Jordan, capital de provincia, que además corresponde a la Región Valles. Cliza conocida como “El Corazón del Valle Alto” y también el “Granero de Bolivia”." /></a>
               </li>
               <li><a href="enlacemunicipios/cocapata.php" target="_blank"><img src="enlacemunicipios/sliderMapas/map/cocapata.png" alt="Cocapata" title="Cocapata" data-description="El Municipio de Cocapata es uno de los Municipios más jóvenes del departamento. Es la Tercera Sección Municipal de la Provincia Ayopaya y está situado en la Región Andina.
-
-Los ciclos productivos cortos permiten que se logre hasta 4 cosechas al año. En relación a la producción de papa y otros cultivos con rendimientos óptimos 1 cosecha al año." /></a>
+              Los ciclos productivos cortos permiten que se logre hasta 4 cosechas al año. En relación a la producción de papa y otros cultivos con rendimientos óptimos 1 cosecha al año." /></a>
               </li>
               <li><a href="enlacemunicipios/colcapirhua.php" target="_blank"><img src="enlacemunicipios/sliderMapas/map/colcapirhua.png" alt="Colcapirhua" title="Colcapirhua" data-description="Es la Quinta Sección Municipal de la Provincia Quillacollo, corresponde a la Región Metropolitana. Su nombre deriva del quechua qollqe - plata y pirwa – silo, depósito de productos agrícolas, construidos de cañahueca y barro." /></a>
               </li>
               <li><a href="enlacemunicipios/colomi.php" target="_blank"><img src="enlacemunicipios/sliderMapas/map/colomi.png" alt="Colomi" title="Colomi" data-description="Es la Segunda Sección Municipal de la Provincia Chapare. Y es parte de la Región del Trópico. Es considerada “Capital Hidroeléctrica de Bolivia” por ser proveedor de energía. Su ubicación geográfica privilegiada hace del municipio un lugar con permanente movimiento comercial y de tránsito. Los principales centros turístico se hallan en cercanías de Santa Isabel, Incachaca, hermosos parajes de selva subtropical, hermosos paisajes de altura por la laguna de Corani y otros menos conocidos, y la característica peculiar del municipio es la neblina en sus pisos ecológicos." /></a>
               </li>
               <li><a href="enlacemunicipios/entrerios.php" target="_blank"><img src="enlacemunicipios/sliderMapas/map/entrerios.png" alt="Entre Rios" title="Entre Rios" data-description="El municipio de Entre Ríos corresponde a la Sexta Sección Municipal de la Provincia Carrasco, pertenece a la Región del Trópico.
-
-Entre Ríos se encuentra en una de las regiones con mayor potencialidad en la producción de alimentos e hidrocarburos. Sus más de 30 mil habitantes se dedican a la actividad ganadera, piscícola y avícola, también al cultivo de granos, como el arroz, maíz, soya; frutas como la piña y el plátano de exportación. Además, se produce café, papaya, sandías y otros." /></a>
+              Entre Ríos se encuentra en una de las regiones con mayor potencialidad en la producción de alimentos e hidrocarburos. Sus más de 30 mil habitantes se dedican a la actividad ganadera, piscícola y avícola, también al cultivo de granos, como el arroz, maíz, soya; frutas como la piña y el plátano de exportación. Además, se produce café, papaya, sandías y otros." /></a>
               </li>
               <li><a href="enlacemunicipios/independencia.php" target="_blank"><img src="enlacemunicipios/sliderMapas/map/independencia.png" alt="Independencia" title="Independencia" data-description="Es la Primera Sección Municipal de la Provincia Ayopaya y está ubicada en la Región Andina, es además la capital de provincia. Conocida como “El Reducto de la Gesta Libertaria” en nuestro país, por su contribución a las luchas libertarias en 1825. Fue el centro de operaciones de los temidos guerrilleros de la Republiqueta de Ayopaya." /></a>
               </li>

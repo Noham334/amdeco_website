@@ -27,96 +27,89 @@ include("noticias/conexion.php");
   <header>
     <?php include './include/header.php'; ?>
   </header>
-  <div class="page">
-    <main>
-      <div class='container'>
-        <div class="row">
-          <div class="col-lg-12">
-            <hr>
-            <h1 class="page-header">NOTICIAS AMDECO</h1>
-            <?php
-            $nums = 1;
-            $sql_banner_top = mysqli_query($con, "select * from banner where estado=1 order by orden ");
-            while ($rw_banner_top = mysqli_fetch_array($sql_banner_top)) {
-            ?>
-              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="<?php echo $rw_banner_top['titulo']; ?>" data-caption="<?php echo $rw_banner_top['descripcion'];    ?>" data-image="noticias/img/banner/<?php echo $rw_banner_top['url_image']; ?>" data-target="#image-gallery" data-url="<?php echo $rw_banner_top['url_descript']; ?>">
-                  <img class="img-responsive" src="noticias/img/banner/<?php echo $rw_banner_top['url_image']; ?>" alt="Another alt text">
-                  <p><?php echo $rw_banner_top['titulo']; ?></p>
-                  <p class="button-container">
-                    <button class="button btn-primary br-2" onclick="location.href='<?php echo $rw_banner_top['url_descript']; ?>'"><br>Click para leer</br></button>
-                  </p>
-                </a>
-              </div>
-            <?php
-              if ($nums % 4 == 0) {
-                echo '<div class="clearfix"></div>';
-              }
-              $nums++;
-            }
-            ?>
+  <main>
+    <div class='container'>
+      <div class="row">
+        <center class="mt-2">
+          <h1 class="page-header">NOTICIAS AMDECO</h1>
+        </center>
+        <?php
+        $nums = 1;
+        $sql_banner_top = mysqli_query($con, "select * from banner where estado=1 order by orden ");
+        while ($rw_banner_top = mysqli_fetch_array($sql_banner_top)) {
+        ?>
+          <div class="col-sm-4 thumbnail card p-2">
+            <a href="#" data-image-id="" data-toggle="modal" data-title="<?php echo $rw_banner_top['titulo']; ?>" data-caption="<?php echo $rw_banner_top['descripcion'];    ?>" data-image="noticias/img/banner/<?php echo $rw_banner_top['url_image']; ?>" data-target="#image-gallery" data-url="<?php echo $rw_banner_top['url_descript']; ?>">
+              <img class="img-responsive" src="noticias/img/banner/<?php echo $rw_banner_top['url_image']; ?>" alt="Another alt text">
+              <p><?php echo $rw_banner_top['titulo']; ?></p>
+              <button class="button btn-primary" onclick="location.href='<?php echo $rw_banner_top['url_descript']; ?>'"><br>Click para leer</br></button>
+            </a>
           </div>
-        </div>
+        <?php
+
+        }
+        ?>
       </div>
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Latest compiled and minified JavaScript -->
-      <script>
-        $(document).ready(function() {
-          loadGallery(true, 'a.thumbnail');
-          //This function disables buttons when needed
-          function disableButtons(counter_max, counter_current) {
-            $('#show-previous-image, #show-next-image').show();
-            if (counter_max == counter_current) {
-              $('#show-next-image').hide();
-            } else if (counter_current == 1) {
-              $('#show-previous-image').hide();
-            }
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script>
+      $(document).ready(function() {
+        loadGallery(true, 'a.thumbnail');
+        //This function disables buttons when needed
+        function disableButtons(counter_max, counter_current) {
+          $('#show-previous-image, #show-next-image').show();
+          if (counter_max == counter_current) {
+            $('#show-next-image').hide();
+          } else if (counter_current == 1) {
+            $('#show-previous-image').hide();
           }
-          /**
-           *
-           * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
-           * @param setClickAttr  Sets the attribute for the click handler.
-           */
+        }
+        /**
+         *
+         * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
+         * @param setClickAttr  Sets the attribute for the click handler.
+         */
 
-          function loadGallery(setIDs, setClickAttr) {
-            var current_image,
-              selector,
-              counter = 0;
+        function loadGallery(setIDs, setClickAttr) {
+          var current_image,
+            selector,
+            counter = 0;
 
-            $('#show-next-image, #show-previous-image').click(function() {
-              if ($(this).attr('id') == 'show-previous-image') {
-                current_image--;
-              } else {
-                current_image++;
-              }
-
-              selector = $('[data-image-id="' + current_image + '"]');
-              updateGallery(selector);
-            });
-
-            function updateGallery(selector) {
-              var $sel = selector;
-              current_image = $sel.data('image-id');
-              $('#image-gallery-caption').text($sel.data('caption'));
-              $('#image-gallery-title').text($sel.data('title'));
-              $('#image-gallery-image').attr('src', $sel.data('image'));
-              disableButtons(counter, $sel.data('image-id'));
+          $('#show-next-image, #show-previous-image').click(function() {
+            if ($(this).attr('id') == 'show-previous-image') {
+              current_image--;
+            } else {
+              current_image++;
             }
 
-            if (setIDs == true) {
-              $('[data-image-id]').each(function() {
-                counter++;
-                $(this).attr('data-image-id', counter);
-              });
-            }
-            $(setClickAttr).on('click', function() {
-              updateGallery($(this));
+            selector = $('[data-image-id="' + current_image + '"]');
+            updateGallery(selector);
+          });
+
+          function updateGallery(selector) {
+            var $sel = selector;
+            current_image = $sel.data('image-id');
+            $('#image-gallery-caption').text($sel.data('caption'));
+            $('#image-gallery-title').text($sel.data('title'));
+            $('#image-gallery-image').attr('src', $sel.data('image'));
+            disableButtons(counter, $sel.data('image-id'));
+          }
+
+          if (setIDs == true) {
+            $('[data-image-id]').each(function() {
+              counter++;
+              $(this).attr('data-image-id', counter);
             });
           }
-        });
-      </script>
-    </main>
+          $(setClickAttr).on('click', function() {
+            updateGallery($(this));
+          });
+        }
+      });
+    </script>
+  </main>
   </div>
   <!--
     ========================================================
