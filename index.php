@@ -6,24 +6,25 @@ $images = get_foto();
 <html lang="es">
 
 <head>
-  <title>Amdeco</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <meta charset="utf-8">
-  <meta name="author" content="AMDECO" />
   <meta name="viewport" content="width=device-width" />
+  <meta name="author" content="AMDECO" />
+  <title>Amdeco</title>
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v18.0" nonce="yPFg0l4N"></script>
+
   <header>
     <?php include './include/header.php'; ?>
   </header>
   <div class="page carousel">
     <?php if (count($images) > 0) : ?>
-      <!-- aqui insertaremos el slider -->
       <div id="carousel1" class="carousel slide carousel-fade dblock" style="max-height: 500px;" data-bs-ride="carousel">
-        <!-- Indicadores -->
         <div class="carousel-indicators">
           <?php
           $cnt = 0;
@@ -38,17 +39,16 @@ $images = get_foto();
           endforeach;
           ?>
         </div>
-        <!-- Contenedor de las imagenes -->
         <div class="carousel-inner" style="max-height: 510px;">
           <?php
           $cnt = 0;
           foreach ($images as $img) :
           ?>
-            <div data-bs-interval="5000" class="carousel-item <?php if ($cnt == 0) {
+            <div data-bs-interval="4000" class="carousel-item <?php if ($cnt == 0) {
                                                                 echo 'active';
                                                               } ?>">
               <img style="max-height: 550px; margin-bottom: -60px;" src="<?php echo 'inicio/admin/' . $img->folder . $img->src; ?>" alt="Imagen <?php echo ($cnt + 1); ?>" class="d-block w-100">
-              <div class="carousel-caption"><?php echo "<h4 style='margin: auto; background: #57aacd; width:300px; border-radius: 5px; padding: 4px 0px; color: white;'>" . $img->title; ?></h4>
+              <div class="carousel-caption"><?php echo "<h4 style='margin: auto; background: #1e3c7a; width:300px; border-radius: 5px; padding: 4px 0px; color: white;'>" . $img->title; ?></h4>
               </div>
             </div>
           <?php
@@ -70,10 +70,16 @@ $images = get_foto();
       <h4 class="alert alert-warning">No hay imagenes</h4>
     <?php endif; ?>
   </div>
-  <section class="well1">
+  <section class="">
     <div class="noticias">
-      <?php include "noticias/Consultas.php";
-      Noticias(); ?>
+      <center>
+        <h2 class="pb-2">NOTICIAS</h2>
+      </center>
+      <div class="card-container d-flex justify-content-around">
+        <?php include "noticias/Consultas.php";
+        Noticias();
+        ?>
+      </div>
     </div>
     <div class="noticias-eventos">
       <div class="container d-flex justify-content-between">
@@ -82,10 +88,8 @@ $images = get_foto();
             <div class="d-flex align-items-center flex-column">
               <h2 class="fa-facebook-square" style="color:white;"> Nuestro Facebook</h2>
               <p>Visitenos en las redes sociales</p>
-              <div class="fb-page" data-href="https://www.facebook.com/RedAMDECO/" data-height="400" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-                <blockquote cite="https://www.facebook.com/RedAMDECO/" class="fb-xfbml-parse-ignore">
-                  <a href="https://www.facebook.com/RedAMDECO/">AMDECO</a>
-                </blockquote>
+              <div class="fb-page" data-href="https://www.facebook.com/RedAMDECO" data-tabs="timeline,events,messages" data-width="" data-height="400" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/RedAMDECO" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RedAMDECO">AMDECO</a></blockquote>
               </div>
             </div>
           </div>
@@ -119,25 +123,18 @@ $images = get_foto();
       </div>
     </div>
   </section>
-  <?php
-  // FOOTER
-  include './include/footer.php';
-  ?>
+  <footer>
+    <?php
+    // FOOTER
+    include './include/footer.php';
+    ?>
+  </footer>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="./js/jquery.min.js"></script>
   <script src="js/script.js"></script>
   <script src="./js/jquery.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script src="js/common.js"></script>
-  <script>
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
+
 </body>
 
 </html>

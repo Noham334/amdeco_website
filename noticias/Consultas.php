@@ -17,12 +17,13 @@
         if (mysqli_num_rows($sql) > 0) {
             while ($res = mysqli_fetch_array($sql)) {
                 $imagen = $res['url_image'];
-                echo "<div class='card'>
+                echo "
+                <div class='card'>
+                <div class='category'><center>Noticias Amdeco</center></div>
                     <div class='card-image'><img src='noticias/img/banner/" . $imagen . "'   width='280' height='200'/></div>
                     <div>
-                    <div class='category'>Noticias Amdeco</div>
-                    <div class='heading'>" . $res['titulo'] .
-                    "<div class='author'> Por <span class='name'>AMDECO </span>" . $res['fecha'] . "</div>
+                    <div class='heading d-flex flex-column align-items-center'> <center>" . $res['titulo'] .
+                    "</center> <div class='author'><span class='name'>AMDECO </span>" . $res['fecha'] . "</div>
                     </div>
                     </div>
                 </div>            ";

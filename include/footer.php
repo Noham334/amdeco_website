@@ -1,4 +1,4 @@
-<footer class="text-center text-white" style="background-color: #56585a ">
+<footer class="text-center text-white" style="background-color: #1e3c61 ">
   <div class="container">
     <section class="">
       <div class="row text-center d-flex justify-content-center pt-3">
@@ -57,7 +57,7 @@
     </section>
 
     <section class="row d-flex justify-content-center mb-3  ">
-      <div class="col-6 d-flex justify-content-around">
+      <div class="col-3 d-flex justify-content-around">
         <a href="https://www.facebook.com/RedAMDECO/?ref=embed_page" class="text-white">
           <i class="fab fa-facebook-f"></i>
         </a>

@@ -3,77 +3,8 @@
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
 
-* {
-  font-size: 16px;
-}
-/*TEXTO JUSTIFICADO*/
-div {
-  text-align: left;
-  text-justify: inter-word;
-}
-
-.well1 {
-  background: #fff;
-}
-
-p {
-  margin-bottom: 10px;
-}
-/*========================================================
-					  Main Styles
-=========================================================*/
 body {
-  color: #56585a;
   font-family: 'Open Sans', sans-serif;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #434547;
-}
-h1 a:hover,
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
-  color: #62bfe6;
-}
-
-h1 {
-  font-size: 38px;
-  line-height: 42px;
-}
-
-h2 {
-  font-size: 34px;
-  line-height: 38px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 38px;
-}
-
-h4 {
-  font-size: 22px;
-}
-
-h5 {
-  font-size: 20px;
-}
-
-h6 {
-  font-size: 18px;
 }
 
 p a:hover,
@@ -127,7 +58,6 @@ strong {
 
 .page {
   overflow: hidden;
-  min-height: 500px;
 }
 .lt-ie9 .page {
   min-width: 1200px;
@@ -819,125 +749,6 @@ table tr:nth-child(even) {
   margin-top: 15px;
 }
 
-/*========================   Menu   ==========================*/
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 9vh;
-  border-bottom: 3px solid rgba(201, 196, 196, 0.671);
-}
-
-.logo {
-  max-height: 12vh;
-}
-
-nav > ul {
-  padding: 0;
-  margin: 0;
-  max-height: 10vh;
-}
-
-ul > * {
-  height: inherit;
-}
-
-nav li {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  position: relative;
-  float: left;
-  list-style-type: none;
-  z-index: 2;
-  font-size: 16px;
-  margin-left: 5px;
-}
-
-nav ul li,
-nav ul li a {
-  color: rgb(31, 32, 32);
-}
-
-nav li:hover,
-nav li a:hover {
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  -ms-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
-}
-nav li.active {
-  background: #57aacd;
-}
-nav li.active a {
-  color: #fff;
-}
-nav ul:after {
-  content: '.';
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-.nav-list li {
-  margin-left: 32px;
-}
-nav li a:focus {
-  outline: none;
-  text-decoration: none;
-}
-nav li:first-child a {
-  border-left: none;
-}
-nav li.last a {
-  border-right: none;
-}
-
-.ul-list {
-  display: none;
-  padding: 0.5rem;
-  position: absolute;
-  background: #535d66be;
-  border-top: 1px solid #545454;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-}
-
-.ul-list li {
-  margin-left: 0;
-  padding: 0.2rem;
-  color: #fff;
-  width: max-content;
-}
-
-.ul-list li a {
-  color: #fff;
-  width: inherit;
-}
-
-.ul-list li a:hover {
-  color: #53cde2;
-}
-
-.mobile-menu {
-  display: none;
-  border-radius: 0.2rem;
-  background-color: #838383;
-  cursor: pointer;
-}
-
-.mobile-menu div {
-  width: 1.6rem;
-  height: 3px;
-  background-color: #fff;
-  border-radius: 5px;
-  margin: 6px;
-}
-/* FIN HEADER*/
 blockquote.testimonial-wrap.testimonial {
   position: relative;
   display: table;
@@ -1280,7 +1091,6 @@ header {
 					 CONTENT  Section
 =========================================================*/
 section {
-  margin-top: 2rem;
 }
 main {
   display: block;
@@ -1350,32 +1160,50 @@ a[href^='callto:']:hover {
 /*========================================================
 					 NOTICIAS  Styles
 =========================================================*/
+
 .noticias {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
-  background: #fff;
-  padding: 100px 0;
+  background: #1e3c7a;
+  padding: 2rem 0;
+}
+
+.noticias h2 {
+  color: white;
+  font-weight: 700;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  width: 290px;
-  background: rgb(222, 223, 226);
+  width: 340px;
+  background: rgba(250, 250, 252, 0);
   padding: 0.4em;
+  border: none;
   border-radius: 6px;
 }
 
 .card-image {
   display: flex;
   align-items: center;
-  background-color: rgb(236, 236, 236);
+  justify-content: center;
   overflow: hidden;
 
+  margin-top: 0.7rem;
   width: 100%;
   height: 130px;
   border-radius: 6px 6px 0 0;
+}
+
+.card-image {
+  height: auto;
+  width: auto;
+}
+
+.card-image img {
+  border-radius: 5px;
 }
 
 .card-image:hover {
@@ -1386,7 +1214,7 @@ a[href^='callto:']:hover {
   text-transform: uppercase;
   font-size: 0.7em;
   font-weight: 600;
-  color: rgb(63, 121, 230);
+  color: rgb(164, 199, 216);
   padding: 10px 7px 0;
 }
 
@@ -1396,7 +1224,7 @@ a[href^='callto:']:hover {
 
 .heading {
   font-weight: 600;
-  color: rgb(88, 87, 87);
+  color: rgb(252, 252, 252);
   padding: 7px;
 }
 
@@ -1405,7 +1233,7 @@ a[href^='callto:']:hover {
 }
 
 .author {
-  color: gray;
+  color: rgb(164, 199, 216);
   font-weight: 400;
   font-size: 11px;
   padding-top: 20px;
@@ -1674,11 +1502,12 @@ footer .bar-wrap {
 
   .nav-list {
     position: absolute;
-    top: 8vh;
+    top: 10vh;
     right: 0;
     width: 50vw;
     height: 90vh;
     background: #f3d3;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     transform: translateX(100%);
@@ -1710,7 +1539,7 @@ footer .bar-wrap {
     min-height: 200px;
   }
 
-  div.noticias {
+  div.noticias > .card-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
