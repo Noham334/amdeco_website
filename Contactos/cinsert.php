@@ -15,8 +15,11 @@ $asunto = $_GET['message'];
 $sql2 = "INSERT INTO contactos (id, nombre, telefono, correo, asunto) VALUES (NULL, '$nombre', '$telefono', '$email', '$asunto')";
 //consulta($sql);
 $consulta2 = mysqli_query($conn, $sql2);
-echo "se inserto correctamente";
-header("location:../contactos.php");
+echo "
+<script>
+   alert('Se envió el mensaje correctamente!');
+   location.replace('../contactos.php');
+</script>";
 
 //validacion
 
