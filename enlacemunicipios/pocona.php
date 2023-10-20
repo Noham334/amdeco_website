@@ -8,7 +8,7 @@
 
 <body>
   <header>
-    <?php include './include/header.php'; ?>
+    <?php include '../include/header.php'; ?>
   </header>
   <div class="container-fluid">
     <div class="col-sm-12">
@@ -76,11 +76,9 @@
     </div>
   </div>
   <br>
-  <footer>
-    <?php
-    include './include/footer.php';
-    ?>
-  </footer>
+  <?php
+  include '../include/footer.php';
+  ?>
   <?php include_once("./include/scripts.php") ?>
 </body>
 

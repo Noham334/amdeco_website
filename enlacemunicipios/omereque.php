@@ -8,7 +8,7 @@
 
 <body>
    <header>
-      <?php include './include/header.php'; ?>
+      <?php include '../include/header.php'; ?>
    </header>
    <!--
       ========================================================
@@ -71,7 +71,7 @@
          </p><br>
       </div>
    </div>
-   <footer><?php include_once('./include/footer.php'); ?></footer>
+   <footer><?php include_once('../include/footer.php'); ?></footer>
    <?php include_once('./include/scripts.php'); ?>
 </body>
 

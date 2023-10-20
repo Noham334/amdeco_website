@@ -1,23 +1,20 @@
-<!DOCTYPE php>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
   <title>Amdeco-Publicaciones </title>
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no">
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/device.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/grid.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/device.min.js"></script>
   <script src="publicaciones/publicacionsSlider/sliderengine/jquery.js"></script>
   <script src="publicaciones/publicacionsSlider/sliderengine/amazingslider.js"></script>
   <link rel="stylesheet" type="text/css" href="publicaciones/publicacionsSlider/sliderengine/amazingslider-1.css">
   <script src="publicaciones/publicacionsSlider/sliderengine/initslider-1.js"></script>
-  <!-- End of head section php codes -->
-
 </head>
 
 <body>
@@ -220,10 +217,9 @@
     </footer>
 
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
-  <script src="js/script.js"></script>
-  <script src="js/common.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/common.js"></script>
 </body>
 
 </html>

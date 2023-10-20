@@ -11,9 +11,9 @@
 
 <body>
   <header>
-    <?php include './include/header.php'; ?>
+    <?php include '../include/header.php'; ?>
   </header>
-  <div class="container-fluid">
+  <div class="container">
     <div class="col-sm-12">
       <br>
       <center>
@@ -76,7 +76,7 @@
   </div>
   <footer>
     <?php
-    include './include/footer.php';
+    include '../include/footer.php';
     ?>
   </footer>
   <?php

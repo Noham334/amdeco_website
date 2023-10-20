@@ -1,4 +1,4 @@
-<footer class="text-center text-white" style="background-color: #1e3c61 ">
+<footer class="text-center text-white" style="background-color: var(--custom-color-primary); ">
   <div class="container">
     <section class="">
       <div class="row text-center d-flex justify-content-center pt-3">

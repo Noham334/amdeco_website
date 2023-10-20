@@ -9,7 +9,7 @@
 
 <body>
   <header>
-    <?php include './include/header.php'; ?>
+    <?php include '../include/header.php'; ?>
   </header>
   <div class="container-fluid">
     <div class="col-sm-12">
@@ -81,11 +81,9 @@
       </div>
     </div>
   </div>
-  <footer>
-    <?php
-    include './include/footer.php';
-    ?>
-  </footer>
+  <?php
+  include '../include/footer.php';
+  ?>
   <?php include './include/scripts.php'; ?>
 </body>
 

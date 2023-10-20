@@ -10,45 +10,36 @@ if (isset($_POST['search_ci']) && isset($_POST['input_search_ci'])) {
 
 ?>
 
-<!DOCTYPE php>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
     <title>Amdeco - Registros</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="images/deco.ico" type="image/x-icon">
-    <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/google-map.css">
-    <link rel="stylesheet" href="css/mailform.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.2.1.js"></script>
-    <script src="js/device.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mailform.css">
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.js"></script>
+    <script src="assets/js/device.min.js"></script>
 </head>
 
 <body>
     <header>
         <?php include './include/header.php'; ?>
     </header>
-    <!--
-      ========================================================
-                                  CONTENT
-      ========================================================
-      -->
-
     <main>
         <div class='container'>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="page-header text-center mt-5"> REGISTRO DE PERSONAL DE AMDECO</h2>
-                    <div class="col-md-12">
-                        <h6>Buscar por nº de CI:</h6>
+            <div class="row ">
+                <div class="col-md-12 d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="page-header text-center my-3"> REGISTRO DE PERSONAL DE AMDECO</h2>
+                    <div class="col-md-8 img-thumbnail p-5">
+                        <h6 class="text-center mb-5">Buscar por Numero de CI:</h6>
                         <div class="row">
-                            <form class="d-flex justify-content-center align-items-center" action="registros.php" method="post">
-                                <div class="col-md-6">
+                            <form class="d-flex justify-content-around align-items-center" action="registros.php" method="post">
+                                <div class="col-md-5">
                                     <input type="number" style="padding: 0 0 0 5%; width:100%;" name="input_search_ci" class="form-control" placeholder="Ingrese el CI a buscar">
                                 </div>
                                 <div class="col-md-3">
@@ -65,10 +56,10 @@ if (isset($_POST['search_ci']) && isset($_POST['input_search_ci'])) {
                                     <h6 class="text-dark">Personas encontradas <?php if (!empty($results)) : echo '('; ?><?= $longitud = count($results);
                                                                                                                             echo ')';
                                                                                                                         endif; ?></h6>
-                                    <ul class="list-group" style="list-style: none; padding:2% 0 5% 0;">
+                                    <ul class="list-group" style="list-style-type   : none; padding:2% 0 5% 0;">
                                         <?php $longitud = count($results);
                                         for ($i = 0; $i < $longitud; $i++) : ?>
-                                            <li>
+                                            <li style="list-style-type   : none; padding:2% 0 5% 0;">
                                                 <div class="col-md-4">
                                                     <p><?= $results[$i]['nombre'] ?> </p>
                                                 </div>
@@ -95,12 +86,6 @@ if (isset($_POST['search_ci']) && isset($_POST['input_search_ci'])) {
                 </div>
             </div>
         </div>
-        </div>
-        </div>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script>
             $(document).ready(function() {
                 loadGallery(true, 'a.thumbnail');
@@ -157,18 +142,13 @@ if (isset($_POST['search_ci']) && isset($_POST['input_search_ci'])) {
             });
         </script>
     </main>
-    <!--
-      ========================================================
-                                  FOOTER
-      ========================================================
-      -->
     <footer>
         <?php include './include/footer.php'; ?>
     </footer>
-    <script src="js/common.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script src="./js/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

@@ -11,7 +11,7 @@
 <body>
   <header>
     <?php
-    include_once('include/header.php');
+    include_once('../include/header.php');
     ?>
   </header>
   <div class="container hr well1 ins2">
@@ -87,7 +87,7 @@
   <footer>
     <?php
     // FOOTER
-    include './include/footer.php';
+    include '../include/footer.php';
     ?>
   </footer>
   <?php

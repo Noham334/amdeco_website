@@ -27,8 +27,8 @@
     <?php include './include/header.php'; ?>
   </header>
   <main>
-    <section>
-      <div class="container my-3">
+    <section class="py-3">
+      <div class="container">
         <div class="row">
           <div class="col-lg-6 d-flex flex-column align-items-center">
             <h3 class="">NUESTRA UBICACION</h3>
@@ -59,7 +59,7 @@
                 <label class="my-2" for="form_message">Asunto</label>
                 <textarea id="form_message" name="message" class="form-control" placeholder="Escriba su mensaje" rows="4" required="required" data-error="send a message."></textarea>
                 <div class="help-block with-errors"></div>
-                <input type="submit" class="btn btn-primary btn-send" value="Enviar">
+                <input type="submit" class="mt-2 btn btn-primary btn-send" value="Enviar">
               </div>
             </form>
           </div>

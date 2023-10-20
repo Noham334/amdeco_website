@@ -48,7 +48,7 @@ $images = get_foto();
                                                                 echo 'active';
                                                               } ?>">
               <img style="max-height: 550px; margin-bottom: -60px;" src="<?php echo 'inicio/admin/' . $img->folder . $img->src; ?>" alt="Imagen <?php echo ($cnt + 1); ?>" class="d-block w-100">
-              <div class="carousel-caption"><?php echo "<h4 style='margin: auto; background: #1e3c7a; width:300px; border-radius: 5px; padding: 4px 0px; color: white;'>" . $img->title; ?></h4>
+              <div class="carousel-caption"><?php echo "<h4 style='margin: auto; background: var(--custom-color-secondary); width:300px; border-radius: 5px; padding: 4px 0px; color: white;'>" . $img->title; ?></h4>
               </div>
             </div>
           <?php
@@ -73,7 +73,7 @@ $images = get_foto();
   <section class="">
     <div class="noticias">
       <center>
-        <h2 class="pb-2">NOTICIAS</h2>
+        <h2>NOTICIAS</h2>
       </center>
       <div class="card-container d-flex justify-content-around">
         <?php include "noticias/Consultas.php";
@@ -81,9 +81,9 @@ $images = get_foto();
         ?>
       </div>
     </div>
-    <div class="noticias-eventos">
+    <div class="noticias-eventos py-5">
       <div class="container d-flex justify-content-between">
-        <div class="col-md-5">
+        <div class="dark-card col-md-5">
           <div class="info-box-left" style="margin:auto;">
             <div class="d-flex align-items-center flex-column">
               <h2 class="fa-facebook-square" style="color:white;"> Nuestro Facebook</h2>
@@ -94,12 +94,10 @@ $images = get_foto();
             </div>
           </div>
         </div>
-
-        <div class="col-md-5">
+        <div class="dark-card col-md-5">
           <div class="info-box d-flex justify-content-centerd-flex justify-content-center">
             <div class="d-flex align-items-center flex-column">
               <h2 class="fa-comment">Eventos</h2>
-              <p>Principales eventos y Talleres</p>
               <dl class="d-flex justify-content-center">
                 <marquee direction="up" scrollamount="1" width="100%" height="100" onmouseover="this.stop();" onmouseout="this.start();">
                   <?php
@@ -107,7 +105,7 @@ $images = get_foto();
                   $images = get_imgs();
                   foreach ($images as $img) : ?>
                     <div class="d-flex flex-column align-items-center">
-                      <img src="<?php echo './eventos/' . $img->folder . '/' . $img->src; ?>" alt="">
+                      <img class="evento-image" src="<?php echo './eventos/' . $img->folder . '/' . $img->src; ?>" alt="">
                       <br>
                       <a href="eventos/viewdocument.php?id=<?php echo $img->idEvento ?>" class="GenEnlRes"><?php echo $img->titulo; ?></a><br>
                       Fecha del evento&nbsp;<?php $fecha = $img->fecha;

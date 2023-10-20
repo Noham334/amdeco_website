@@ -3,14 +3,13 @@
 
 <head>
   <title>Amdeco-Quienes somos</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width" />
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css">
-
-  <script src="js/php5shiv.js"></script>
-  <script src="js/device.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <script src="assets/js/php5shiv.js"></script>
+  <script src="assets/js/device.min.js"></script>
 </head>
 
 <body>
@@ -32,15 +31,15 @@
       -->
     <main class="mobile-center">
       <section>
-        <div class="container hr well1 ins2">
+        <div class="container mt-2">
           <div class="row">
-            <div class="grid_6">
-              <img src="images\Logo-PMI.png" width="520" height="500">
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+              <img class="" src="images\Logo-PMI.png" width="400">
               <!--div class="video">
                   <iframe src="#" allowfullscreen></iframe>
                 </div>-->
             </div>
-            <div class="grid_6">
+            <div class="col-lg-6">
 
               <div class="row">
                 <dt>
@@ -56,14 +55,14 @@
           </div>
         </div>
       </section>
-      <section class="fluid-container">
+      <section class="fluid-container mt-2">
         <div class="container">
-          <h2>Productos de contenido</h2>
+          <h2 class="text-center">Productos de contenido</h2>
 
-          <div class="grid_12">
-            <p>Aquí podras desacargar los PdC, que son libre distribución respetando los derechos de autor.</p>
+          <div class="col-12">
+            <p class="text-center">Aquí podras desacargar los PdC, que son libre distribución respetando los derechos de autor.</p>
             <br>
-            <table>
+            <table class="mb-5">
               <th>
                 <h3>----------Caja de herramientas---------</h3>
               </th>
@@ -129,15 +128,16 @@
                                   FOOTER
       ========================================================
       -->
-      <footer>
-        <?php include './include/footer.php'; ?>
-      </footer>
-
-      <script src="js/common.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-      <script src="./js/jquery.min.js"></script>
   </div>
-  <script src="js/script.js"></script>
+  <br>
+  <footer>
+    <?php include './include/footer.php'; ?>
+  </footer>
+
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

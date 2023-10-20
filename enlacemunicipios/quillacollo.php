@@ -12,7 +12,7 @@
         HEADER
     ======================================================== -->
     <header>
-      <?php include './include/header.php'; ?>
+      <?php include '../include/header.php'; ?>
     </header>
     <!-- ========================================================
         CONTENT
@@ -82,11 +82,9 @@
       </div>
     </div>
   </div>
-  <footer>
-    <?php
-    include './include/footer.php';
-    ?>
-  </footer>
+  <?php
+  include '../include/footer.php';
+  ?>
   <?php
   include './include/scripts.php';
   ?>

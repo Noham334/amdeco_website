@@ -12,7 +12,7 @@
   <div class="page">
     <!-- HEADER -->
     <header>
-      <?php include './include/header.php'; ?>
+      <?php include '../include/header.php'; ?>
     </header>
     <div class="container-fluid">
 
@@ -88,7 +88,7 @@
   <footer>
     <?php
     // FOOTER
-    include './include/footer.php';
+    include '../include/footer.php';
     ?>
   </footer>
   <?php

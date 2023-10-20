@@ -3,8 +3,20 @@
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
 
-body {
+/* My version of AMDECO Palette Color */
+:root {
+  --custom-color-light: #faf9f8;
+  --custom-color-secondary: #6090cd;
+  --custom-color-primary: #2b489d;
+  --custom-color-dark: #15214b;
+  --custom-color-darkest: #0b0e1b;
+}
+
+body > * {
   font-family: 'Open Sans', sans-serif;
+  color: var(--custom-color-dark);
+  background-color: var(--custom-color-light);
+  background: var(--custom-color-light);
 }
 
 p a:hover,
@@ -87,98 +99,9 @@ hr {
 /*=======================================================
 					   Main Layout
 =========================================================*/
-* + .btn {
-  margin-top: 32px;
-}
-
-* + .row {
-  margin-top: 18px;
-}
-
-* + .off1 {
-  margin-top: 13px;
-}
-
-* + .off2 {
-  margin-top: 24px;
-}
-
-* + .off3 {
-  margin-top: 32px;
-}
-
-* + .off4 {
-  margin-top: 4px;
-}
-
 .info-box + .owl-carousel {
   margin-top: 30px;
 }
-
-h2 + img {
-  margin-top: 23px;
-}
-
-h2 + p {
-  margin-top: 14px;
-}
-
-h3 + p {
-  margin-top: 12px;
-}
-
-* + hr {
-  margin-top: 40px;
-}
-
-.row + p {
-  margin-top: 25px;
-}
-
-hr + * {
-  margin-top: 40px;
-}
-
-img + p {
-  margin-top: 22px;
-}
-
-img + h3 {
-  margin-top: 20px;
-}
-
-.marked-list + .btn {
-  margin-top: 17px;
-}
-
-.grid_2 img + img {
-  margin-top: 30px;
-}
-@media (min-width: 480px) and (max-width: 767px) {
-  .grid_2 img + img {
-    margin-top: 0;
-    margin-left: 8%;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
-  .grid_2 img {
-    width: 46%;
-  }
-}
-
-.off2 + hr,
-.off2 + hr + .row {
-  margin-top: 50px;
-}
-
-p + .btn_wr {
-  margin-top: 33px;
-}
-
-/*=======================================================
-						Components
-=========================================================*/
 /*==================     Brand     ======================*/
 .brand {
   display: inline-block;
@@ -271,66 +194,6 @@ p + .btn_wr {
   right: 0;
   bottom: 0;
   left: 0;
-}
-
-/*==================    Buttons    ======================*/
-.btn,
-.btn2 {
-  display: inline-block;
-  width: 150px;
-  padding: 16px;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 500;
-  text-align: center;
-  text-transform: uppercase;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.btn:hover,
-.btn2:hover {
-  background: #4ab5e2;
-}
-.btn:active,
-.btn2:active {
-  background: #22a1d7;
-}
-
-.btn {
-  color: #fff;
-  background: #62bfe6;
-}
-
-.btn2 {
-  color: #62bfe6;
-  background: #eaeaea;
-}
-.btn2:hover,
-.btn2:active {
-  color: #fff;
-}
-
-.btn_wr [class*='btn'] {
-  padding: 16px 30px;
-  display: inline-block;
-  width: auto;
-}
-.btn_wr [class*='btn'] + [class*='btn'] {
-  margin-top: 0;
-  margin-left: 20px;
-}
-.btn_wr + .btn_wr {
-  margin-top: 20px;
-}
-@media (max-width: 767px) {
-  .btn_wr [class*='btn'] {
-    width: 100%;
-  }
-  .btn_wr [class*='btn'] + [class*='btn'] {
-    margin-top: 20px;
-    margin-left: 0;
-  }
 }
 
 /*==================      Box      ======================*/
@@ -667,17 +530,26 @@ table tr:nth-child(even) {
 }
 
 /*==================    Info Box   ======================*/
+.dark-card {
+  background: var(--custom-color-dark);
+  color: var(--custom-color-primary);
+  border-radius: 2rem;
+}
+
+.fb-page {
+  border: 0.3rem solid white;
+  border-radius: 10px;
+}
+.evento-image {
+  border: 0.3rem solid white;
+  border-radius: 10px;
+}
+
 .info-box {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 30px 20px 20px;
-  color: #fff;
-  background: #57aacd;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  color: var(--custom-color-light);
   min-height: 548px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .info-box dl marquee {
@@ -689,16 +561,10 @@ table tr:nth-child(even) {
 }
 
 .info-box-left {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 30px 20px 20px;
-  color: #fff;
-  background: #57aacd;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  color: var(--custom-color-light);
   height: 560px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .info-box dt,
@@ -1090,12 +956,12 @@ header {
 /*========================================================
 					 CONTENT  Section
 =========================================================*/
-section {
-}
+
 main {
   display: block;
-  background: #fff;
+  background: var(--custom-color-light);
 }
+
 main .container.hr {
   padding-bottom: 50px;
 }
@@ -1160,12 +1026,15 @@ a[href^='callto:']:hover {
 /*========================================================
 					 NOTICIAS  Styles
 =========================================================*/
+.noticias-eventos {
+  background-color: var(--custom-color-light);
+}
 
 .noticias {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background: #1e3c7a;
+  background: var(--custom-color-primary);
   padding: 2rem 0;
 }
 

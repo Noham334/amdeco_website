@@ -7,8 +7,8 @@
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta name="format-detection" content="telephone=no">
   <link rel="icon" href="images/deco.ico" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="phpfolletos/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="phpfolletos/css/form-elements.css">
   <script>
@@ -66,7 +66,7 @@
 
     <br>
     <!-- CARGAR REGISTRO A NUESTRA TABLA-->
-    <div class="container">
+    <div class="container my-2">
       <div align="center"><input type="text1" name="search" id="search" placeholder="Buscar.." class="form-control"> </div><br>
 
       <div class="table-responsive">
@@ -128,7 +128,7 @@
                                   FOOTER
       ========================================================
       -->
-    <?php include '../include/footer.php'; ?>
+    <footer><?php include '../include/footer.php'; ?></footer>
     <script language="javascript">
       function deleteme(id) {
         if (confirm("Desea Eliminar!")) {
@@ -164,8 +164,7 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/common.js"></script>
     <script src="../js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
