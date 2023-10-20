@@ -9,7 +9,7 @@
     <link rel="icon" href="\amdeco_website\enlacesacercade\login\frontend\images\deco.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="icon/style.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -20,7 +20,7 @@
     <div class="container-form">
         <div class="header">
             <div class="imagen">
-                <img src="images/deco.ico" alt="" width="60">
+                <img src="image/amdecologo.png" alt="" width="200px" height="50px">
             </div>
             <div class="menu">
                 <!--<a href="login.php"><li class="module-login active">Iniciar sesión</li></a>
