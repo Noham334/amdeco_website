@@ -117,12 +117,13 @@ include('js/jquery.easing.1.3.js');
 
 /* Copyright Year
  ========================================================*/
-(function ($) {
+ (function ($) {
 	var currentYear = new Date().getFullYear();
 	$(document).ready(function () {
 		$('#copyright-year').text(currentYear);
 	});
 })(jQuery);
+
 
 /* Superfish menus
  ========================================================*/

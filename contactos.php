@@ -71,10 +71,10 @@
   <footer>
     <?php include './include/footer.php'; ?>
   </footer>
-  <script src="js/common.js"></script>
+  <script src="assets/js/common.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="./js/jquery.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
