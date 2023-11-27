@@ -32,7 +32,7 @@ $images = get_foto();
           ?>
             <button type="button" data-bs-target="#carousel1" data-bs-slide-to="<?php echo $cnt ?>" aria-label="Slide <?php echo ($cnt + 1); ?>" class="<?php if ($cnt == 0) {
                                                                                                                                                           echo 'active';
-                                                                                                                                                        } ?>">
+                                                                                                                                                         } ?>">
             </button>
           <?php
             $cnt++;

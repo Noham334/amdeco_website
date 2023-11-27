@@ -40,11 +40,11 @@
               <div id="wowslider-container1">
                 <div class="ws_images">
                   <ul>
-                    <li><img src="allMunicipios/data1/images/arque1.jpg" alt="Ciudad de Cochabamba Bolivia " title="Ciudad de Cochabamba Bolivia " id="wows1_0" /></li>
-                    <li><img src="allMunicipios/data1/images/arque2.jpg" alt="Ciudad de Cochabamba. Turismo en la CIUDAD JARDÍN de Bolivia. " title="Ciudad de Cochabamba. Turismo en la CIUDAD JARDÍN de Bolivia. " id="wows1_1" /></li>
-                    <li><img src="allMunicipios/data1/images/arque3.jpg" alt="Cochabamba estrena el viaducto más grande del país" title="Cochabamba estrena el viaducto más grande del país" id="wows1_2" /></li>
-                    <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/arque4.jpg" alt="jquery slideshow" title="CÁMARA HOTELERA DE COCHABAMBA" id="wows1_3" /></a></li>
-                    <li><img src="allMunicipios/data1/images/arque5.jpg" alt="Cochabamba. La plaza principal 14 de septiembre" title="Cochabamba. La plaza principal 14 de septiembre" id="wows1_4" /></li>
+                    <li><img src="allMunicipios/data1/images/arque1.jpg" alt="Ciudad de Cochabamba Bolivia " title="" id="wows1_0" /></li>
+                    <li><img src="allMunicipios/data1/images/arque2.jpg" alt="Ciudad de Cochabamba. Turismo en la CIUDAD JARDÍN de Bolivia. " title="" id="wows1_1" /></li>
+                    <li><img src="allMunicipios/data1/images/arque3.jpg" alt="Cochabamba estrena el viaducto más grande del país" title="" id="wows1_2" /></li>
+                    <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/arque4.jpg" alt="jquery slideshow" title="" id="wows1_3" /></a></li>
+                    <li><img src="allMunicipios/data1/images/arque5.jpg" alt="Cochabamba. La plaza principal 14 de septiembre" title="" id="wows1_4" /></li>
                   </ul>
                 </div>
                 <div class="ws_thumbs">
