@@ -29,11 +29,11 @@
             <div id="wowslider-container1">
               <div class="ws_images">
                 <ul>
-                  <li><img src="allMunicipios/data1/images/alalay1.jpg" alt="Municipio de Alalay " title="Municipio de Alalay" id="wows1_0" /></li>
-                  <li><img src="allMunicipios/data1/images/alalay2.jpg" alt="Municipio de Alalay" title="Municipio de Alalay" id="wows1_1" /></li>
-                  <li><img src="allMunicipios/data1/images/alalay3.jpg" alt="Municipio de Alalay" title="Municipio de Alalay" id="wows1_2" /></li>
-                  <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/alalay4.jpg" alt="jquery slideshow" title="Municipio de Alalay" id="wows1_3" /></a></li>
-                  <li><img src="allMunicipios/data1/images/alalay5.jpg" alt="Municipio de Alalay" title="Municipio de Alalay" id="wows1_4" /></li>
+                  <li><img src="allMunicipios/data1/images/alalay1.jpg" alt="Municipio de Alalay " title="" id="wows1_0" /></li>
+                  <li><img src="allMunicipios/data1/images/alalay2.jpg" alt="Municipio de Alalay" title="" id="wows1_1" /></li>
+                  <li><img src="allMunicipios/data1/images/alalay3.jpg" alt="Municipio de Alalay" title="" id="wows1_2" /></li>
+                  <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/alalay4.jpg" alt="jquery slideshow" title="" id="wows1_3" /></a></li>
+                  <li><img src="allMunicipios/data1/images/alalay5.jpg" alt="Municipio de Alalay" title="" id="wows1_4" /></li>
                 </ul>
               </div>
               <div class="ws_thumbs">

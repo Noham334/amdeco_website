@@ -28,11 +28,11 @@
             <div id="wowslider-container1">
               <div class="ws_images">
                 <ul>
-                  <li><img src="allMunicipios/data1/images/anzaldo1.jpg" alt="Municipio de Anzaldo " title="Anzaldo, Cochabamba Bolivia " id="wows1_0" /></li>
-                  <li><img src="allMunicipios/data1/images/anzaldo2.jpg" alt="Anzaldo Bolivia. " title="Anzaldo - Cochamba." id="wows1_1" /></li>
-                  <li><img src="allMunicipios/data1/images/anzaldo3.jpg" alt="Anzaldo - Cochamba." title="Anzaldo - Cochamba." id="wows1_2" /></li>
-                  <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/anzaldo4.jpg" alt="jquery slideshow" title="Anzaldo - Cochamba." id="wows1_3" /></a></li>
-                  <li><img src="allMunicipios/data1/images/anzaldo5.jpg" alt="Anzaldo - Cochamba." title="Anzaldo - Cochamba." id="wows1_4" /></li>
+                  <li><img src="allMunicipios/data1/images/anzaldo1.jpg" alt="Municipio de Anzaldo " title="" id="wows1_0" /></li>
+                  <li><img src="allMunicipios/data1/images/anzaldo2.jpg" alt="Anzaldo Bolivia. " title="" id="wows1_1" /></li>
+                  <li><img src="allMunicipios/data1/images/anzaldo3.jpg" alt="Anzaldo - Cochamba." title="" id="wows1_2" /></li>
+                  <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/anzaldo4.jpg" alt="jquery slideshow" title="" id="wows1_3" /></a></li>
+                  <li><img src="allMunicipios/data1/images/anzaldo5.jpg" alt="Anzaldo - Cochamba." title="" id="wows1_4" /></li>
                 </ul>
               </div>
               <div class="ws_thumbs">

@@ -32,11 +32,11 @@
             <div id="wowslider-container1">
               <div class="ws_images">
                 <ul>
-                  <li><img src="allMunicipios/data1/images/aiquile/aiquile1.jpg" alt="Capital del Charango " title="Capital del Charango" id="wows1_0" /></li>
-                  <li><img src="allMunicipios/data1/images/aiquile/aiquile2.jpg" alt="Prelatura de Aiquile." title="Prelatura de Aiquile." id="wows1_1" /></li>
-                  <li><img src="allMunicipios/data1/images/aiquile/aiquile3.jpg" alt="Estadio Municipal Aiquile" title="Estadio municipal de Aiquile" id="wows1_2" /></li>
-                  <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/aiquile/aiquile4.jpg" alt="jquery slideshow" title="Bien venidos a Aiquile" id="wows1_3" /></a></li>
-                  <li><img src="allMunicipios/data1/images/aiquile/aiquile5.jpg" alt="GAM. Aiquile" title="GAM. Aiquile" id="wows1_4" /></li>
+                  <li><img src="allMunicipios/data1/images/aiquile/aiquile1.jpg" alt="Capital del Charango " title="" id="wows1_0" /></li>
+                  <li><img src="allMunicipios/data1/images/aiquile/aiquile2.jpg" alt="Prelatura de Aiquile." title="" id="wows1_1" /></li>
+                  <li><img src="allMunicipios/data1/images/aiquile/aiquile3.jpg" alt="Estadio Municipal Aiquile" title="" id="wows1_2" /></li>
+                  <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/aiquile/aiquile4.jpg" alt="jquery slideshow" title="" id="wows1_3" /></a></li>
+                  <li><img src="allMunicipios/data1/images/aiquile/aiquile5.jpg" alt="GAM. Aiquile" title="" id="wows1_4" /></li>
                 </ul>
               </div>
               <div class="ws_thumbs">

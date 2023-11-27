@@ -27,11 +27,11 @@
             <div id="wowslider-container1">
               <div class="ws_images">
                 <ul>
-                  <li><img src="allMunicipios/data1/images/arani1.jpg" alt="Municipo de Arani" title="Tierra del viento cristalino" id="wows1_0" /></li>
-                  <li><img src="allMunicipios/data1/images/arani2.jpg" alt="CMunicipo de Arani" title="CTierra del viento cristalino" id="wows1_1" /></li>
-                  <li><img src="allMunicipios/data1/images/arani3.jpg" alt="Municipo de Arani" title="Tierra del viento cristalino" id="wows1_2" /></li>
-                  <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/arani4.jpg" alt="jquery slideshow" title="Tierra del vinto cristalino" id="wows1_3" /></a></li>
-                  <li><img src="allMunicipios/data1/images/arani5.jpg" alt="Municipo de Arani" title="Tierra del viento cristalino" id="wows1_4" /></li>
+                  <li><img src="allMunicipios/data1/images/arani1.jpg" alt="Municipo de Arani" title="" id="wows1_0" /></li>
+                  <li><img src="allMunicipios/data1/images/arani2.jpg" alt="CMunicipo de Arani" title="" id="wows1_1" /></li>
+                  <li><img src="allMunicipios/data1/images/arani3.jpg" alt="Municipo de Arani" title="" id="wows1_2" /></li>
+                  <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/arani4.jpg" alt="jquery slideshow" title="" id="wows1_3" /></a></li>
+                  <li><img src="allMunicipios/data1/images/arani5.jpg" alt="Municipo de Arani" title="" id="wows1_4" /></li>
                 </ul>
               </div>
               <div class="ws_thumbs">

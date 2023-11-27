@@ -37,11 +37,11 @@
               <div id="wowslider-container1">
                 <div class="ws_images">
                   <ul>
-                    <li><img src="allMunicipios/data1/images/arbieto1.jpg" alt="Capital del Durazno" title="Capital del Durazno" id="wows1_0" /></li>
-                    <li><img src="allMunicipios/data1/images/arbieto2.jpg" alt="Capital del Durazno" title="Capital del Durazno" id="wows1_1" /></li>
-                    <li><img src="allMunicipios/data1/images/arbieto3.jpg" alt="Capital del Durazno" title="Capital del Durazno" id="wows1_2" /></li>
-                    <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/arbieto4.jpg" alt="jquery slideshow" title="Capital del Durazno" id="wows1_3" /></a></li>
-                    <li><img src="allMunicipios/data1/images/arbieto5.jpg" alt="Capital del Durazno" title="Capital del Durazno" id="wows1_4" /></li>
+                    <li><img src="allMunicipios/data1/images/arbieto1.jpg" alt="Capital del Durazno" title=" " id="wows1_0" /></li>
+                    <li><img src="allMunicipios/data1/images/arbieto2.jpg" alt="Capital del Durazno" title=" " id="wows1_1" /></li>
+                    <li><img src="allMunicipios/data1/images/arbieto3.jpg" alt="Capital del Durazno" title=" " id="wows1_2" /></li>
+                    <li><a href="http://wowslider.net"><img src="allMunicipios/data1/images/arbieto4.jpg" alt="jquery slideshow" title="" id="wows1_3" /></a></li>
+                    <li><img src="allMunicipios/data1/images/arbieto5.jpg" alt="Capital del Durazno" title="" id="wows1_4" /></li>
                   </ul>
                 </div>
                 <div class="ws_thumbs">
