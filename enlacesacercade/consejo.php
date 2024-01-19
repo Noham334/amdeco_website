@@ -31,7 +31,7 @@
 
                     <ul>
                       <li>
-                        <a>Vice-Presidente de AMDECO<br><img src="consejo/Florencio_alarcon1.jpeg" alt="Little Egret"><br><label>Florencio Alarcón Caero. </label></span></a>
+                        <a>Vice-Presidente de AMDECO<br><img src="consejo/adolfoMeridaDuran.jpeg" alt="Little Egret"><br><label>Adolfo Mérida Durán. </label></span></a>
 
                         <ul>
                           <li>
@@ -41,19 +41,16 @@
                         </ul>
                       </li>
                       <li>
-                        <a>Secretario General<br><img src="consejo/Segundina_orellana.jpeg" alt="Little Egret"><br><label>Segundina Orellana Paniagua.</label></span></a>
+                      <a>Secretario General<br><img src="consejo/Segundina_orellana.jpeg" alt="Little Egret"><br><label>Segundina Orellana Paniagua.</label></span></a>
 
-                      </li>
-                      <li>
-
-                        <a> Secretario de Desarrollo Institucional<br>Administrativo y Financiero<br><img src="consejo/Ramiro_mamani.jpeg " alt="Little Egret"><br><label>Ramiro Mamani Escalera.</label></span></a>
                         <ul>
                           <li>
 
-                            <a>Secretaria de Genero y Derechos Humanos<br><img src="consejo/Gregoria_hinojosa.jpeg " alt="Little Egret"><br><label>Gregoria Hinojosa Choque </label></span></a>
+                          <a> Secretario de Desarrollo Institucional<br>Administrativo y Financiero<br><img src="consejo/Ramiro_mamani.jpeg " alt="Little Egret"><br><label>Ramiro Mamani Escalera.</label></span></a>
                           </li>
                         </ul>
                       </li>
+                      
                     </ul>
                   </li>
                 </ul>
